@@ -1,0 +1,881 @@
+{
+  "general_skills": [
+    {
+      "skill_id": "gen_001",
+      "title": "Solve equations with constraints",
+      "principle": "Derive and solve algebraic or geometric equations with specified conditions, leveraging substitution, factoring, or trigonometric identities.",
+      "when_to_apply": "Across algebra, geometry, and combinatorics for solving equations with integer, geometric, or trigonometric constraints."
+    },
+    {
+      "skill_id": "gen_002",
+      "title": "Simplify modular arithmetic",
+      "principle": "Reduce factorial or trigonometric expressions modulo specific values by eliminating zero remainders and applying divisibility properties.",
+      "when_to_apply": "Evaluate last few digits of products involving factorials or simplify reciprocal sums in modular arithmetic contexts."
+    },
+    {
+      "skill_id": "gen_003",
+      "title": "Optimize geometric parameters",
+      "principle": "Determine optimal dimensions or angles for shapes under area/perimeter constraints, considering interdependent conditions.",
+      "when_to_apply": "Design shapes with fixed area/perimeter requirements and ensure integer dimensions for congruence."
+    },
+    {
+      "skill_id": "gen_004",
+      "title": "Solve inequalities with constraints",
+      "principle": "Apply algebraic techniques to solve absolute value or polynomial inequalities by transforming them into equivalent forms.",
+      "when_to_apply": "For absolute value or polynomial inequalities where sign transitions depend on interval domains."
+    },
+    {
+      "skill_id": "gen_005",
+      "title": "Simplify ratios and proportions",
+      "principle": "Factor out common components from ratios or apply proportionality principles for geometric or algebraic problems.",
+      "when_to_apply": "Simplify ratios of sums or solve proportional relationships."
+    },
+    {
+      "skill_id": "gen_006",
+      "title": "Calculate probability",
+      "principle": "Divide favorable configurations by total outcomes to determine probability for finite outcome spaces.",
+      "when_to_apply": "Compute probabilities for independent events or filtered sequences."
+    },
+    {
+      "skill_id": "gen_007",
+      "title": "Solve triangle inequalities",
+      "principle": "Ensure sequences maintain triangle inequality conditions by enforcing each term < sum of two preceding terms.",
+      "when_to_apply": "Optimize integer-length sequences under non-degenerate triangle constraints."
+    },
+    {
+      "skill_id": "gen_008",
+      "title": "Simplify algebraic expressions",
+      "principle": "Derive and simplify expressions for ratios of volumes by dividing corresponding terms and reducing constants.",
+      "when_to_apply": "Calculate ratios of volumes of solids with identical scaling factors."
+    },
+    {
+      "skill_id": "gen_009",
+      "title": "Parametrize conic sections",
+      "principle": "Use parametric representations to analyze and compute extrema of quadratic forms representing conic sections.",
+      "when_to_apply": "Maximize/minimize quadratic expressions constrained by geometric relationships."
+    },
+    {
+      "skill_id": "gen_010",
+      "title": "Solve geometric optimization problems",
+      "principle": "Use trigonometric identities and central angles to compute areas of cyclic polygons by decomposing into triangles.",
+      "when_to_apply": "Solve geometric problems involving cyclic polygons and angular relationships."
+    },
+    {
+      "skill_id": "gen_011",
+      "title": "Simplify fractions to lowest terms",
+      "principle": "Reduce fractions by dividing numerator and denominator by their greatest common divisor (GCD).",
+      "when_to_apply": "Express probabilities or ratios in lowest terms."
+    },
+    {
+      "skill_id": "gen_012",
+      "title": "Solve equations from geometric constraints",
+      "principle": "Derive algebraic or trigonometric equations from geometric conditions (e.g., perpendicular chords) to establish relationships.",
+      "when_to_apply": "Solve problems involving constraints on angles or distances in geometric figures."
+    },
+    {
+      "skill_id": "gen_013",
+      "title": "Generate arithmetic sequences",
+      "principle": "Create sequences with a specified common difference and starting value for arithmetic progression problems.",
+      "when_to_apply": "Solve problems involving arithmetic progression or filtered sequences."
+    },
+    {
+      "skill_id": "gen_014",
+      "title": "Sum qualifying elements",
+      "principle": "Compute the sum of a subset of numbers meeting specific criteria (e.g., primes in a sequence).",
+      "when_to_apply": "Solve problems requiring summation of filtered elements in a sequence."
+    },
+    {
+      "skill_id": "gen_015",
+      "title": "Check for primality",
+      "principle": "Verify if a number is prime by checking divisibility up to its square root.",
+      "when_to_apply": "Solve problems involving prime numbers in arithmetic sequences or subsets."
+    },
+    {
+      "skill_id": "gen_016",
+      "title": "Minimize prime factor product",
+      "principle": "Arrange prime factors in ascending order to minimize the resulting number $ N $, ensuring exponents match the derived values from the divisor count decomposition.",
+      "when_to_apply": "Construct $ N $ as a multiple of a given prime (e.g., 83) by ordering primes in ascending magnitude to minimize $ N $."
+    },
+    {
+      "skill_id": "gen_017",
+      "title": "Balanced parity counting",
+      "principle": "When the number of even and odd elements are equal, the minimum number of swaps required is half the total number of elements.",
+      "when_to_apply": "Solve problems with restricted swaps between even and odd elements."
+    },
+    {
+      "skill_id": "gen_018",
+      "title": "Parity-based swap strategy",
+      "principle": "Swap elements of different parities (even and odd) to correct their positions, ensuring each swap fixes one even and one odd element.",
+      "when_to_apply": "Solve problems involving restricted swaps between even and odd elements."
+    },
+    {
+      "skill_id": "gen_019",
+      "title": "Count with constraints",
+      "principle": "Calculate the number of valid configurations under specified constraints using combinatorial methods or factor pair analysis.",
+      "when_to_apply": "Solve problems with multiplicative constraints, such as selecting items from a multiset or partitioning areas."
+    },
+    {
+      "skill_id": "gen_020",
+      "title": "Constraint-based case analysis",
+      "principle": "Break problems into distinct scenarios and manage overlaps to ensure comprehensive coverage.",
+      "when_to_apply": "Solve complex problems with interdependent constraints across multiple domains."
+    },
+    {
+      "skill_id": "gen_021",
+      "title": "Integer factor pair analysis",
+      "principle": "Identify valid integer factor pairs for area or perimeter constraints to determine dimensions.",
+      "when_to_apply": "Analyze shapes with fixed area and requiring integer dimensions for congruence."
+    },
+    {
+      "skill_id": "gen_022",
+      "title": "Maximize product of functions",
+      "principle": "Optimize the product of functions by combining their maximum or minimum values, considering sign interactions.",
+      "when_to_apply": "Determine the maximum value of a product of functions with variable dependencies."
+    },
+    {
+      "skill_id": "gen_023",
+      "title": "Count under constraints with digit analysis",
+      "principle": "Calculate the number of integers within a range that meet specific conditions, including multiples and digit patterns.",
+      "when_to_apply": "Solving problems with numerical bounds and modular constraints."
+    },
+    {
+      "skill_id": "gen_024",
+      "title": "Geometric intersection constraints",
+      "principle": "Impose bounds on side lengths for circle-polygon intersections based on required intersection counts.",
+      "when_to_apply": "Analyzing feasible side lengths for circle-polygon intersection problems."
+    },
+    {
+      "skill_id": "gen_025",
+      "title": "Pythagorean triple generation",
+      "principle": "Generate primitive Pythagorean triples using integer parameters m > n and verify area-to-perimeter ratios.",
+      "when_to_apply": "Solving for integer-sided right triangles with specific area-to-perimeter properties."
+    },
+    {
+      "skill_id": "gen_026",
+      "title": "Net displacement calculation",
+      "principle": "Sum forward and backward steps to determine net displacement in opposing forces.",
+      "when_to_apply": "Resolving problems with balanced forces or opposing movements."
+    },
+    {
+      "skill_id": "gen_027",
+      "title": "Outlier detection",
+      "principle": "Identify outliers using IQR-based thresholds for statistical analysis.",
+      "when_to_apply": "Analyzing datasets to detect anomalies using quantile-based methods."
+    },
+    {
+      "skill_id": "gen_028",
+      "title": "Avoid palindromic substrings",
+      "principle": "Ensure no two identical elements are adjacent or separated by one position to prevent palindromic substrings.",
+      "when_to_apply": "Arranging elements to avoid palindromic substrings of length ≥ 2."
+    }
+  ],
+  "task_specific_skills": {},
+  "common_mistakes": [
+    {
+      "mistake_id": "err_001",
+      "description": "Misinterpreting geometric constraints in path calculations.",
+      "why_it_happens": "Failure to accurately model the problem's geometric requirements, such as path intersections or direction changes, leads to incorrect area or configuration calculations.",
+      "how_to_avoid": "Verify geometric implications of paths, break problems into segments, and apply systematic methods to account for intersections and direction changes."
+    },
+    {
+      "mistake_id": "err_002",
+      "description": "Incorrectly handling digit sum transformations in multiplication.",
+      "why_it_happens": "Assuming digit sums remain invariant under multiplication by 5, without considering carryover effects, results in flawed digit sum calculations.",
+      "how_to_avoid": "Explicitly analyze digit-by-digit multiplication and carryover effects, using modular arithmetic to compute final digit sums."
+    },
+    {
+      "mistake_id": "err_003",
+      "description": "Overlooking edge cases in number enumeration.",
+      "why_it_happens": "Neglecting valid numbers like 001 or numbers with leading zeros, or failing to account for digit sum changes during multiplication by 5.",
+      "how_to_avoid": "Systematically enumerate numbers, validate edge cases, and apply modular arithmetic to handle carryover effects."
+    },
+    {
+      "mistake_id": "err_004",
+      "description": "Failure to enforce constraints in team configurations.",
+      "why_it_happens": "Assuming all configurations are valid without checking closure under constraints (e.g., taller/heavier players must be included), leading to overcounting.",
+      "how_to_avoid": "Verify closure under constraints before counting rectangles, and apply constraints explicitly to all configurations."
+    },
+    {
+      "mistake_id": "err_005",
+      "description": "Incorrect modular arithmetic in cycle calculations.",
+      "why_it_happens": "Miscalculating days in a 4-year cycle (e.g., 1462 days instead of 1461), leading to incorrect modular equations.",
+      "how_to_avoid": "Accurately compute total days in a 4-year cycle (365*4 + 2 = 1462) and apply correct modular arithmetic for shifts."
+    },
+    {
+      "mistake_id": "err_006",
+      "description": "Ignoring connectivity in domino tiling.",
+      "why_it_happens": "Assuming disconnected shapes can be tiled without checking connectivity, leading to invalid configurations.",
+      "how_to_avoid": "Verify connectivity of remaining shapes before concluding tiling is possible, and ensure both area parity and connectivity requirements are met."
+    },
+    {
+      "mistake_id": "err_007",
+      "description": "Incorrectly counting lines with slope -1.",
+      "why_it_happens": "Failing to account for all distinct diagonals (e.g., (0,2)-(1,1)-(2,0), (0,1)-(1,0), (1,2)-(2,1)), leading to undercounting.",
+      "how_to_avoid": "Systematically list all possible lines with slope -1 or use grid-based methods to ensure no line is missed."
+    },
+    {
+      "mistake_id": "err_008",
+      "description": "Miscalculating coordinates for intersection points.",
+      "why_it_happens": "Incorrectly solving systems of equations for lines or section formulas, leading to erroneous coordinates for points like Z.",
+      "how_to_avoid": "Verify intersection points algebraically and double-check arithmetic when simplifying fractions or applying section formulas."
+    },
+    {
+      "mistake_id": "err_009",
+      "description": "Arithmetic errors in distance or area calculations.",
+      "why_it_happens": "Errors in simplifying radicals or fractions, leading to incorrect final values for distances or areas.",
+      "how_to_avoid": "Carefully simplify radical expressions and fractions step-by-step, using algebraic identities to reduce complexity."
+    },
+    {
+      "mistake_id": "err_010",
+      "description": "Misapplying trapezoid properties or diagonal ratios.",
+      "why_it_happens": "Incorrectly applying ratios (e.g., AP/PC = AB/CD = 3/1) or misinterpreting coordinates of points P, B, or C, leading to flawed setups.",
+      "how_to_avoid": "Double-check section formulas and ensure coordinates align with trapezoid properties and given side lengths."
+    },
+    {
+      "mistake_id": "err_011",
+      "description": "Incorrectly simplifying expressions for perfect squares.",
+      "why_it_happens": "Failing to verify that the simplified expression is a perfect square, leading to invalid equations or assumptions.",
+      "how_to_avoid": "Verify that the numerator is divisible by 6 and the result is a perfect square by checking divisibility and using algebraic techniques."
+    },
+    {
+      "mistake_id": "err_012",
+      "description": "Forgetting to consider all cases in square root conditions.",
+      "why_it_happens": "Focusing on specific algebraic forms (e.g., a² - 3b² = 1/2) without considering all integer solutions or missing cases where the expression must be a perfect square.",
+      "how_to_avoid": "Systematically test multiple cases and ensure all integer solutions are considered, especially for Diophantine equations."
+    },
+    {
+      "mistake_id": "err_013",
+      "description": "Testing only small values without verifying the general case.",
+      "why_it_happens": "Testing small values (e.g., n=1, 2, 3) but failing to account for higher values or missing the requirement that the expression must be a perfect square for all n.",
+      "how_to_avoid": "Conduct thorough analysis by combining algebraic methods with systematic testing of values, ensuring all conditions are met for the expression to be a perfect square."
+    },
+    {
+      "mistake_id": "err_014",
+      "description": "Incorrectly assuming elevator movement between floors 1 and 3.",
+      "why_it_happens": "The problem does not specify elevator behavior on floor 2, leading to an incomplete probability model.",
+      "how_to_avoid": "Verify all states in a probability model are fully defined. If a state (like floor 2) is not explicitly mentioned, assume it behaves consistently with the given rules."
+    },
+    {
+      "mistake_id": "err_015",
+      "description": "Miscalculating numerator and denominator in probability fractions.",
+      "why_it_happens": "Incorrectly simplifying (2^483 + 1)/(3*2^482) without accounting for all possible paths or transitions.",
+      "how_to_avoid": "Carefully derive numerator and denominator by considering all possible paths and transitions. Use recursive relations or matrix exponentiation for complex cases."
+    },
+    {
+      "mistake_id": "err_016",
+      "description": "Errors in modular arithmetic during simplification.",
+      "why_it_happens": "Mistakes in simplifying (5*2^482 + 1)/3 modulo 1000, likely due to incorrect exponentiation or modular properties application.",
+      "how_to_avoid": "Use modular arithmetic carefully, ensuring exponents are reduced modulo the denominator's factors and operations are performed step-by-step."
+    },
+    {
+      "mistake_id": "err_017",
+      "description": "Incorrect application of proportional reasoning to area ratios.",
+      "why_it_happens": "Assuming areas are directly proportional to segment lengths without considering base-height relationships or geometric configurations.",
+      "how_to_avoid": "Verify that area ratios depend on both segment lengths and corresponding heights, using consistent proportionality principles (e.g., coordinate geometry)."
+    },
+    {
+      "mistake_id": "err_018",
+      "description": "Arithmetic errors in simplifying fractions.",
+      "why_it_happens": "Miscalculating GCD or reducing fractions, leading to erroneous simplifications and incorrect final answers.",
+      "how_to_avoid": "Double-check fraction simplifications by cross-multiplying or using the GCD method, ensuring all numerical operations are performed step-by-step."
+    },
+    {
+      "mistake_id": "err_019",
+      "description": "Misinterpreting segment ratios in geometric configurations.",
+      "why_it_happens": "Incorrectly assigning ratios to segments based on misread coordinates or misapplying interpolation formulas (e.g., interp(A, C, t) in Asymptote).",
+      "how_to_avoid": "Carefully verify point positions and parameters in interpolation, using coordinate geometry or vector methods to confirm segment ratios."
+    },
+    {
+      "mistake_id": "err_020",
+      "description": "Incorrectly setting up equations for sum of squares and solving them.",
+      "why_it_happens": "Algebraic errors in deriving relationships between n, a, and b, such as misapplying the sum of squares formula.",
+      "how_to_avoid": "Carefully derive the sum of squares formula for consecutive integers and solve the system of equations systematically."
+    },
+    {
+      "mistake_id": "err_021",
+      "description": "Incorrect application of totient function properties to composite numbers.",
+      "why_it_happens": "Failing to account for multiplicative independence of totient function across prime factors, leading to miscalculations in φ(36n), φ(25n), and φ(16n).",
+      "how_to_avoid": "Decompose each term into prime factors, apply totient formula for each prime power, and ensure multiplicative independence is respected."
+    },
+    {
+      "mistake_id": "err_022",
+      "description": "Miscalculating exponents in prime factorization of n.",
+      "why_it_happens": "Incorrectly handling exponents of primes in n (e.g., 2, 3, 5) when computing φ(36n), φ(25n), or φ(16n).",
+      "how_to_avoid": "Systematically track exponents of all primes in n and apply totient formula step-by-step, ensuring exponents are correctly adjusted for each prime."
+    },
+    {
+      "mistake_id": "err_023",
+      "description": "Forgetting to consider coprimality of n with 25 and 16.",
+      "why_it_happens": "Assuming n is coprime to 25 and 16 without verification, leading to incorrect simplifications of φ(25n) and φ(16n) when n contains factors of 2, 3, or 5.",
+      "how_to_avoid": "Explicitly analyze the coprimality of n with 25 and 16, and ensure all prime factors of n are accounted for in the totient function calculations."
+    },
+    {
+      "mistake_id": "err_024",
+      "description": "Incorrect factorization of 2022",
+      "why_it_happens": "Failing to correctly factor 2022 as 2 × 3 × 337, or misinterpreting the prime factors, leading to incorrect modular conditions for n^7 - 1.",
+      "how_to_avoid": "Always verify the prime factorization of the target number and ensure all prime factors are accounted for in the congruence conditions."
+    },
+    {
+      "mistake_id": "err_025",
+      "description": "Modular arithmetic errors in solving congruences",
+      "why_it_happens": "Misapplying properties of modular arithmetic, such as not recognizing that 7 divides the order of the multiplicative group modulo 337, or incorrectly solving for roots of unity.",
+      "how_to_avoid": "Carefully apply modular properties, verify that the exponents and roots satisfy the required congruences, and check solutions against the original problem's constraints."
+    },
+    {
+      "mistake_id": "err_026",
+      "description": "Failure to apply Chinese Remainder Theorem correctly",
+      "why_it_happens": "Not ensuring all prime factors (2, 3, 337) are simultaneously satisfied by the solution n, or misinterpreting conditions for n to be minimal across all moduli.",
+      "how_to_avoid": "Systematically apply the Chinese Remainder Theorem to combine congruences, verify that the solution meets all required conditions, and check for the minimal n."
+    },
+    {
+      "mistake_id": "err_027",
+      "description": "Incorrect angle ratio application in triangle ABE",
+      "why_it_happens": "Assuming the ratio 4:5 for angles AEB and ABE without considering the triangle's angle sum (180°), leading to flawed calculations for individual angles.",
+      "how_to_avoid": "Always verify that the sum of angles in a triangle equals 180° and ensure ratios are applied to the correct angles. Use algebraic equations to solve for unknowns systematically."
+    },
+    {
+      "mistake_id": "err_028",
+      "description": "Misapplication of parallel line properties",
+      "why_it_happens": "Incorrectly assuming angle relationships between parallel lines (e.g., corresponding angles) without considering the circle's geometric constraints, leading to miscalculations of angle BCD.",
+      "how_to_avoid": "Apply parallel line theorems (e.g., corresponding angles, alternate interior angles) within the context of the circle's properties. Verify that all angle relationships are consistent with the circle's diameter and chord properties."
+    },
+    {
+      "mistake_id": "err_029",
+      "description": "Failure to consider full geometric constraints",
+      "why_it_happens": "Neglecting to account for the circle's diameter and parallel chords (EB || DC) in coordinate-based calculations, leading to an incorrect cosine formula and angle measure.",
+      "how_to_avoid": "Ensure all geometric constraints (e.g., diameters, parallel chords, inscribed angles) are explicitly incorporated into the solution. Use multiple methods (e.g., triangle properties, coordinate geometry) to cross-verify results."
+    },
+    {
+      "mistake_id": "err_030",
+      "description": "Incorrect application of inclusion-exclusion principle for counting valid solutions.",
+      "why_it_happens": "Mistakes in modular arithmetic conditions or miscounting overlaps between constraints lead to incorrect totals.",
+      "how_to_avoid": "Carefully apply inclusion-exclusion by calculating each condition's contribution and verifying modular arithmetic conditions."
+    },
+    {
+      "mistake_id": "err_031",
+      "description": "Failure to properly account for modular constraints in divisibility conditions.",
+      "why_it_happens": "Overlooking specific cases where divisibility conditions (e.g., (k-1) not dividing a) require exclusion of residues.",
+      "how_to_avoid": "Systematically analyze each divisibility condition's impact and explicitly exclude invalid residue classes."
+    },
+    {
+      "mistake_id": "err_032",
+      "description": "Incorrect verification of divisibility conditions for f(k) modulo (k+1).",
+      "why_it_happens": "Failure to check f(k) modulo (k+1) after computation leads to incorrect conclusions about divisibility.",
+      "how_to_avoid": "Verify results by computing f(k) modulo (k+1) directly or using modular arithmetic properties."
+    },
+    {
+      "mistake_id": "err_033",
+      "description": "Incorrectly assuming the tiling count parity is always even.",
+      "why_it_happens": "Misunderstanding parity of tiling counts for specific n and k values.",
+      "how_to_avoid": "Verify parity for specific n and k and align with known tiling properties."
+    },
+    {
+      "mistake_id": "err_034",
+      "description": "Failure to recognize the conservation of the total sum of the numbers.",
+      "why_it_happens": "Assuming operations preserve invariants (e.g., sum) without verifying their impact.",
+      "how_to_avoid": "Verify invariants and ensure calculations account for their conservation."
+    },
+    {
+      "mistake_id": "err_035",
+      "description": "Underestimating combinatorial complexity of possible operations.",
+      "why_it_happens": "Ignoring all valid operation sequences and their interactions.",
+      "how_to_avoid": "Systematically explore all valid operation sequences and analyze their impact."
+    },
+    {
+      "mistake_id": "err_036",
+      "description": "Misapplying step-count logic based on flawed assumptions about operation effects.",
+      "why_it_happens": "Incorrectly assuming fixed step reductions without considering dynamic problem properties.",
+      "how_to_avoid": "Derive step-count formulas based on problem structure and validate with smaller cases."
+    },
+    {
+      "mistake_id": "err_037",
+      "description": "Incorrect application of Heron's formula due to miscalculating the semi-perimeter.",
+      "why_it_happens": "Errors in substituting sides into Heron's formula or simplifying s - a, s - b, s - c.",
+      "how_to_avoid": "Carefully substitute expressions and verify algebraic simplifications."
+    },
+    {
+      "mistake_id": "err_038",
+      "description": "Arithmetic errors during algebraic manipulations of the area expression.",
+      "why_it_happens": "Mistakes in simplifying complex fractions or square roots.",
+      "how_to_avoid": "Double-check algebraic simplifications and use symbolic tools for verification."
+    },
+    {
+      "mistake_id": "err_039",
+      "description": "Failure to rationalize or simplify the final area expression correctly.",
+      "why_it_happens": "Not reducing fractions to lowest terms or omitting rationalization steps.",
+      "how_to_avoid": "Simplify to lowest terms and verify rationalization steps."
+    },
+    {
+      "mistake_id": "err_040",
+      "description": "Incorrectly counting permutations for the first and last three rolls.",
+      "why_it_happens": "Assuming independence between groups when they are not valid.",
+      "how_to_avoid": "Systematically enumerate distributions of 6s between groups."
+    },
+    {
+      "mistake_id": "err_041",
+      "description": "Misapplying the product condition in the equation setup.",
+      "why_it_happens": "Forgetting that product of groups must be equal.",
+      "how_to_avoid": "Verify product condition and solve for valid integer solutions."
+    },
+    {
+      "mistake_id": "err_042",
+      "description": "Overcounting sequences due to improper distribution of 6s.",
+      "why_it_happens": "Not accounting for 6s distribution between groups leading to overcounting.",
+      "how_to_avoid": "Systematically enumerate 6s distributions to avoid overcounting."
+    },
+    {
+      "mistake_id": "err_043",
+      "description": "Incorrectly assuming the angle between KP and LM is a/2.",
+      "why_it_happens": "Misapplying angle relationships in an obtuse triangle without verifying constraints.",
+      "how_to_avoid": "Verify angle relationships using triangle sum properties and geometric constraints."
+    },
+    {
+      "mistake_id": "err_044",
+      "description": "Incorrect application of trigonometric identities or misinterpreting the given equation.",
+      "why_it_happens": "Misapplying triple angle formulas or misinterpreting cos(3A) + cos(3B) + cos(3C) = 1.",
+      "how_to_avoid": "Verify identities and ensure the equation satisfies all angle configurations."
+    },
+    {
+      "mistake_id": "err_045",
+      "description": "Failure to account for all possible angle configurations in the triangle.",
+      "why_it_happens": "Assuming a specific angle without considering other valid configurations.",
+      "how_to_avoid": "Systematically explore all valid angle combinations that satisfy triangle properties."
+    },
+    {
+      "mistake_id": "err_046",
+      "description": "Misapplying the Law of Sines or incorrect triangle inequality checks.",
+      "why_it_happens": "Incorrectly applying Law of Sines or miscalculating triangle inequalities.",
+      "how_to_avoid": "Verify triangle inequalities and ensure derived side lengths satisfy both conditions."
+    },
+    {
+      "mistake_id": "err_047",
+      "description": "Failure to consider all valid combinations of Fibonacci and triangular numbers.",
+      "why_it_happens": "Not checking all consecutive pairs of Fibonacci and triangular numbers.",
+      "how_to_avoid": "Systematically enumerate all consecutive pairs and verify their presence in the divisor set."
+    },
+    {
+      "mistake_id": "err_048",
+      "description": "Incorrectly assuming the LCM of ranges 2 to n directly determines b_n.",
+      "why_it_happens": "Misapplying LCM and not recognizing b_n = LCM(2, ..., n) + 1.",
+      "how_to_avoid": "Verify LCM and ensure b_n is derived as LCM(2, ..., n) + 1."
+    },
+    {
+      "mistake_id": "err_049",
+      "description": "Incorrectly assuming independence between consecutive elements in the sequence.",
+      "why_it_happens": "Ignoring dependencies between consecutive terms in the sequence.",
+      "how_to_avoid": "Model dependencies using conditional probabilities instead of independent assumptions."
+    },
+    {
+      "mistake_id": "err_050",
+      "description": "Misapplying the expectation formula for dependent events.",
+      "why_it_happens": "Incorrectly calculating expected value for dependent events.",
+      "how_to_avoid": "Use linearity of expectation correctly by considering joint probabilities."
+    },
+    {
+      "mistake_id": "err_051",
+      "description": "Incorrect simplification of the sum involving factorials and exponents.",
+      "why_it_happens": "Mistakes in simplifying combinatorial expressions.",
+      "how_to_avoid": "Verify combinatorial identities and ensure all terms are properly evaluated."
+    },
+    {
+      "mistake_id": "err_052",
+      "description": "Incorrect coordinate setup or calculation leading to wrong coordinates for point A or X.",
+      "why_it_happens": "Misapplying coordinate geometry or miscalculating distances.",
+      "how_to_avoid": "Verify coordinate placements and calculations using consistent methods."
+    },
+    {
+      "mistake_id": "err_053",
+      "description": "Misapplying properties of tangent circles, such as incorrect radius or distance between centers.",
+      "why_it_happens": "Failing to account for internal tangency conditions.",
+      "how_to_avoid": "Use geometric theorems or algebraic methods to ensure correct relationships."
+    },
+    {
+      "mistake_id": "err_054",
+      "description": "Arithmetic or simplification errors in the final expression for AX.",
+      "why_it_happens": "Miscalculating distances or simplifying radicals incorrectly.",
+      "how_to_avoid": "Verify algebraic manipulations and cross-check with alternative methods."
+    },
+    {
+      "mistake_id": "err_055",
+      "description": "Incorrectly constructing numbers M and m without validating adjacency constraints.",
+      "why_it_happens": "Failing to ensure adjacent digits are not consecutive.",
+      "how_to_avoid": "Verify adjacency constraints and systematically arrange digits."
+    },
+    {
+      "mistake_id": "err_056",
+      "description": "Failing to consider all possible pairs where a number is a multiple of another, leading to undercounting valid integer fractions.",
+      "why_it_happens": "Overlooking certain combinations where a number can be a numerator and another a denominator.",
+      "how_to_avoid": "Systematically enumerate all valid pairs where a number is a multiple of another."
+    },
+    {
+      "mistake_id": "err_057",
+      "description": "Incorrect partial fraction decomposition leading to an invalid sum S1.",
+      "why_it_happens": "Miscalculating partial fractions or missing terms.",
+      "how_to_avoid": "Verify partial fraction decomposition and ensure all terms are correctly represented."
+    },
+    {
+      "mistake_id": "err_058",
+      "description": "Errors in telescoping sum calculation leading to an incorrect S1.",
+      "why_it_happens": "Incorrect cancellation of terms or misidentifying cancellation patterns.",
+      "how_to_avoid": "Ensure telescoping terms are correctly identified and canceled."
+    },
+    {
+      "mistake_id": "err_059",
+      "description": "Incorrect simplification of the final fraction leading to non-coprime m and n.",
+      "why_it_happens": "Miscalculating the relationship between squared sums and target form.",
+      "how_to_avoid": "Simplify to lowest terms and ensure m and n are coprime."
+    },
+    {
+      "mistake_id": "err_060",
+      "description": "Incorrectly calculating the number of steps to reach the next square root, leading to miscalculated function values.",
+      "why_it_happens": "Miscalculating the distance to the nearest square root.",
+      "how_to_avoid": "Compute the distance to the nearest square root and verify step counts."
+    },
+    {
+      "mistake_id": "err_061",
+      "description": "Misapplying the recursive increment (1 vs 2) in the function definitions, leading to inconsistent function values.",
+      "why_it_happens": "Failing to account for different increments in recursive steps.",
+      "how_to_avoid": "Explicitly track increments and ensure function values align with definitions."
+    },
+    {
+      "mistake_id": "err_062",
+      "description": "Incorrectly setting up the equation f(n)/g(n) = 4/7 without considering the differing step counts.",
+      "why_it_happens": "The ratio of the functions depends on the number of steps taken to reach the square root. If the user assumes the same number of steps for both functions, the equation will be invalid, leading to an incorrect solution.",
+      "how_to_avoid": "Derive the function values based on the actual number of steps required to reach the square root for each function, then set up the ratio accordingly. For example, if f(n) requires k steps and g(n) requires m steps, ensure the equation reflects k and m separately."
+    },
+    {
+      "mistake_id": "err_063",
+      "description": "Incorrectly assuming all numbers can be paired into groups without considering square-free part parity.",
+      "why_it_happens": "The square-free part of a number (e.g., 2, 3, 5) must be paired with another number of the same part. If a square-free part has an odd count, it cannot be fully paired, requiring some numbers to remain ungrouped. This oversight leads to overcounting valid groups.",
+      "how_to_avoid": "Always analyze the square-free part of each number and ensure parity is balanced. For odd counts, leave the corresponding numbers ungrouped and adjust group counts accordingly."
+    },
+    {
+      "mistake_id": "err_064",
+      "description": "Incorrectly assuming all pairs of cards a and a+9 are in the same half of the deck, leading to an incorrect conclusion that p(a) is always 1.",
+      "why_it_happens": "The assistant failed to consider that when a is in the range 18-26, the card a+9 (e.g., 27-35) lies in the upper half, making the pair (a, a+9) split between the lower and upper halves. This oversight led to an incorrect assumption that all such pairs are in the same half.",
+      "how_to_avoid": "Always verify the positions of the cards a and a+9 relative to the deck's halves (lower: 1-26, upper: 27-52) and consider cases where they may be in different halves. Explicitly calculate the probability by analyzing the possible splits and their implications."
+    },
+    {
+      "mistake_id": "err_065",
+      "description": "Failing to balance large numbers across groups to minimize the maximum product",
+      "why_it_happens": "Prioritizing placing the largest numbers in one group (e.g., 9, 8, 7) instead of distributing them evenly leads to one group having a disproportionately high product, increasing N.",
+      "how_to_avoid": "Distribute large numbers (e.g., 9, 8, 7) across different groups to balance their impact on each product. For example, pair 9 with small numbers (1, 2) and 8 with medium numbers (3, 4) to prevent any group from having an excessively large product."
+    },
+    {
+      "mistake_id": "err_066",
+      "description": "Incorrect count of valid arrangements leading to an undercount of valid sequences.",
+      "why_it_happens": "The failure stemmed from an error in enumerating valid arrangements where no two adjacent beads share the same color. The user may have missed some valid configurations, particularly when the blue bead is placed in specific positions, leading to an undercount of 1 valid arrangement.",
+      "how_to_avoid": "Systematically enumerate valid arrangements by considering each possible position of the blue bead and ensuring that the remaining beads are arranged without adjacent duplicates. Use combinatorial methods (e.g., inclusion-exclusion or recursive counting) to verify the count."
+    },
+    {
+      "mistake_id": "err_067",
+      "description": "Incorrect factorization of the cubic polynomial leading to wrong intervals for a.",
+      "why_it_happens": "The user incorrectly factored the cubic polynomial $ h(a) = 32a^3 - 96a^2 + 42a + 49 $ as $ (a + rac{1}{2})(4a - 7)^2 $, which is mathematically incorrect. The correct factorization would require verifying the polynomial's roots and signs, which was not done properly.",
+      "how_to_avoid": "Always verify the factorization of polynomials by expanding the factored form and comparing it to the original polynomial. Use algebraic methods to confirm roots and signs, and ensure the factorization is correct before proceeding."
+    },
+    {
+      "mistake_id": "err_068",
+      "description": "Miscalculating the lengths of valid intervals for a.",
+      "why_it_happens": "The user incorrectly calculated the lengths of intervals $ [-20, - rac{1}{2}) $ and $ ( rac{7}{4}, 18] $, leading to an incorrect total measure of valid intervals. This was due to arithmetic errors or misapplying interval length formulas.",
+      "how_to_avoid": "Double-check interval length calculations by using the formula $ ext{length} = ext{upper bound} - ext{lower bound} $. Ensure all bounds are correctly converted to fractions or decimals and that intervals are properly defined."
+    },
+    {
+      "mistake_id": "err_069",
+      "description": "Misapplying the condition for all real roots of the original polynomial.",
+      "why_it_happens": "The user assumed that the intervals where $ h(a) < 0 $ directly correspond to all real roots of the original polynomial, without considering additional constraints such as the polynomial's factorization or the need for all roots to be real in the context of the quartic.",
+      "how_to_avoid": "Always verify that the conditions for all real roots are met by considering the polynomial's factorization, discriminants, or other relevant theorems. Ensure that the intervals derived from the cubic polynomial are consistent with the original polynomial's properties."
+    },
+    {
+      "mistake_id": "err_070",
+      "description": "Incorrect exponent in the logarithmic term",
+      "why_it_happens": "The user incorrectly assumed the final answer was $(\\log 2)^3$ instead of $(\\log 2)^2$, leading to an incorrect value of $m + n = 5$.",
+      "how_to_avoid": "Verify the exponent of the logarithmic term by carefully analyzing the series structure and ensuring proper convergence and cancellation of divergent components."
+    },
+    {
+      "mistake_id": "err_071",
+      "description": "Incorrectly counting numbers with three 1s in case 1.",
+      "why_it_happens": "When the first digit is fixed as 1, adding two more 1s in the remaining three positions results in three 1s, which violates the condition of 'exactly two identical digits'. This mistake was not considered in the initial calculation.",
+      "how_to_avoid": "Ensure that the count for case 1 (repeated digit is 1) does not include numbers with three 1s by explicitly excluding cases where the first digit and two other digits are 1."
+    },
+    {
+      "mistake_id": "err_072",
+      "description": "Overcounting the remaining digit in case 2.",
+      "why_it_happens": "In case 2, the remaining digit was counted as 9 options instead of 8 when the repeated digit is 0, leading to overcounting. This error occurred because the remaining digit must be distinct from the repeated digit and 1, but the calculation did not account for this constraint correctly.",
+      "how_to_avoid": "Verify that the remaining digit in case 2 is chosen from digits excluding the repeated digit and 1, ensuring the count is accurate by subtracting invalid options."
+    },
+    {
+      "mistake_id": "err_073",
+      "description": "Incorrectly assuming the given angles are the angles of the same triangle.",
+      "why_it_happens": "The problem involves a complex diagram with multiple angles, but the solver assumed the 60° and 80° angles are the only ones in the triangle, leading to an incorrect calculation.",
+      "how_to_avoid": "Always verify that the given angles belong to the same triangle or figure. If multiple angles are present, ensure they are correctly identified and their relationships are clear."
+    },
+    {
+      "mistake_id": "err_074",
+      "description": "Incorrectly assuming that only Carl's winning lines (3 O's in a row) are valid, while ignoring other possible game-ending conditions.",
+      "why_it_happens": "The game ends when Carl places his third O, but the problem requires counting all board configurations where the game ends exactly at that point. This includes cases where X's also form winning lines, which are subtracted in the calculation.",
+      "how_to_avoid": "Ensure all game-ending conditions (e.g., X's winning lines) are accounted for in the count, and avoid double-counting overlapping winning scenarios."
+    },
+    {
+      "mistake_id": "err_075",
+      "description": "Miscalculating the number of valid board configurations by not considering all possible placements of O's and X's.",
+      "why_it_happens": "The total number of ways to place 3 O's and 3 X's on the board is C(9,3) = 84, but the user may have incorrectly multiplied by the number of winning lines (8) without adjusting for overlaps or invalid configurations.",
+      "how_to_avoid": "Verify that all board configurations are considered, and adjust for overcounting by subtracting invalid cases (e.g., X's forming winning lines) when necessary."
+    },
+    {
+      "mistake_id": "err_076",
+      "description": "Overcounting winning lines by treating each line as distinct when they may overlap or share cells.",
+      "why_it_happens": "Different winning lines (e.g., rows, columns, diagonals) may share cells, leading to duplicate counts when calculating the number of valid configurations.",
+      "how_to_avoid": "Use combinatorial methods to account for overlapping lines and ensure each unique configuration is counted exactly once."
+    },
+    {
+      "mistake_id": "err_077",
+      "description": "Incorrectly modeling state transitions and probabilities.",
+      "why_it_happens": "The agent assumed that probabilities for each state (e.g., 0, 1, 2 galaxies left) could be calculated independently, but failed to account for dependencies between days and overlapping galaxy destructions. This led to an incorrect recursive formula.",
+      "how_to_avoid": "Carefully model state transitions by considering dependencies between days and ensure probabilities for each state are calculated based on actual possible outcomes, avoiding assumptions of independence where required."
+    },
+    {
+      "mistake_id": "err_078",
+      "description": "Incorrectly applying Hooke's law and neglecting energy conservation.",
+      "why_it_happens": "The maximum tension in the bungee cord is 4mg, but the user may have only considered the force from the cord (k h = 4mg) without accounting for the gravitational potential energy lost during the fall. This leads to an incomplete energy balance, resulting in an incorrect relation between k and h.",
+      "how_to_avoid": "Always ensure energy conservation is applied by equating the gravitational potential energy lost to the elastic potential energy stored in the cord. Verify that all forces and energies are properly accounted for in the derivation."
+    },
+    {
+      "mistake_id": "err_079",
+      "description": "Assuming the maximum extension h equals H without considering the unstretched length L₀.",
+      "why_it_happens": "The problem states that the man falls through a maximum distance H, which includes the unstretched length L₀ of the bungee cord. If L₀ is not considered, the relationship between h and H is incorrectly assumed to be h = H, leading to an invalid expression for h in terms of H.",
+      "how_to_avoid": "Always account for the unstretched length L₀ when relating h and H. If L₀ is unknown, derive h in terms of H by considering the total distance fallen and the cord's stretch."
+    },
+    {
+      "mistake_id": "err_080",
+      "description": "Miscalculating the energy conservation equation.",
+      "why_it_happens": "The user may have incorrectly set up the energy equation, such as neglecting the gravitational potential energy or miscalculating the elastic potential energy, leading to an erroneous expression for h in terms of H.",
+      "how_to_avoid": "Carefully derive the energy conservation equation by equating the gravitational potential energy lost (m g H) to the elastic potential energy (½ k h²). Double-check algebraic manipulations to avoid errors in solving for h."
+    },
+    {
+      "mistake_id": "err_081",
+      "description": "Focusing only on prime power pairs and ignoring other valid cases where a and b are not coprime or not prime powers.",
+      "why_it_happens": "The initial approach restricted consideration to pairs where a and b are powers of the same prime, but the problem allows any a and b (not necessarily coprime) to satisfy the divisibility condition. This oversight led to undercounting valid pairs.",
+      "how_to_avoid": "Consider all pairs (a, b) with 1 ≤ a < b ≤ 100, not just prime powers, and verify if there exists a k such that ab divides a^k + b^k. Use modular arithmetic to check divisibility conditions for each pair."
+    },
+    {
+      "mistake_id": "err_082",
+      "description": "Incorrectly counting valid pairs by only considering prime powers, leading to an undercount of 73 pairs.",
+      "why_it_happens": "The initial solution assumed that only prime power pairs (e.g., 2, 4, 8) satisfy the condition, but this is not the case. For example, pairs like (2, 3) or (2, 6) may also satisfy the condition for some k.",
+      "how_to_avoid": "Verify the divisibility condition for all pairs (a, b) using modular arithmetic. For each pair, check if there exists a k such that a^k + b^k ≡ 0 mod ab. This ensures all valid pairs are counted."
+    },
+    {
+      "mistake_id": "err_083",
+      "description": "Miscalculating the number of valid pairs by only considering prime powers and not accounting for overlapping cases.",
+      "why_it_happens": "The initial count of 23 was based on prime power pairs, but the correct answer requires considering all pairs, including those where a and b are not coprime or not prime powers. Overlapping cases were not properly addressed.",
+      "how_to_avoid": "Use a systematic approach to count all valid pairs (a, b) by checking divisibility conditions for each pair. Avoid overcounting by ensuring no cases are missed and all valid pairs are included."
+    },
+    {
+      "mistake_id": "err_084",
+      "description": "Incorrect application of the formula 2^n for the number of pieces",
+      "why_it_happens": "Assumed that each fold doubles the number of layers and that cutting once results in two pieces, leading to 2^8 = 256 instead of 257",
+      "how_to_avoid": "Verify that the cut creates an additional piece when folding and cutting, and ensure the formula accounts for the correct number of pieces by considering the total layers and the effect of the cut."
+    },
+    {
+      "mistake_id": "err_085",
+      "description": "Assuming all multiples of 11111 automatically satisfy the distinct-digit condition",
+      "why_it_happens": "The assistant incorrectly assumed that any multiple of 11111 would inherently have unique digits, ignoring the need to explicitly verify digit uniqueness in the final number.",
+      "how_to_avoid": "Always verify that the resulting number meets the distinct-digit requirement, even when working with multiples of 11111."
+    },
+    {
+      "mistake_id": "err_086",
+      "description": "Failing to account for the correct range of multipliers for ten-digit numbers",
+      "why_it_happens": "The assistant did not properly calculate the valid range of multipliers (e.g., m ≥ 100000) to ensure the product is a ten-digit number with distinct digits.",
+      "how_to_avoid": "Carefully determine the minimum and maximum values of the multiplier (m) that produce ten-digit numbers and check their digit properties."
+    },
+    {
+      "mistake_id": "err_087",
+      "description": "Overlooking permutations of digits with distinct constraints",
+      "why_it_happens": "The assistant did not consider that even if a number is a multiple of 11111, it may not have unique digits, and permutations of digits must be evaluated for distinctness.",
+      "how_to_avoid": "Systematically check all permutations of digits for distinctness and ensure they meet the multiple-of-11111 condition."
+    },
+    {
+      "mistake_id": "err_088",
+      "description": "Incorrectly adjusting positions after each erasure step",
+      "why_it_happens": "Failing to account for the cumulative effect of removing digits in each step, leading to misaligned positions in subsequent erasures.",
+      "how_to_avoid": "Model each erasure step as a transformation of the position list, ensuring that the remaining positions are recalculated accurately after each removal. Use modular arithmetic to track shifts in positions."
+    },
+    {
+      "mistake_id": "err_089",
+      "description": "Miscalculating original positions from target positions",
+      "why_it_happens": "Using flawed formulas to determine the original position in the original sequence, such as incorrect division or modulus operations, leading to erroneous digit selections.",
+      "how_to_avoid": "Verify formulas for position adjustments after erasures, ensuring they account for the number of digits removed in each step. Use systematic methods to trace back from target positions to the original sequence."
+    },
+    {
+      "mistake_id": "err_090",
+      "description": "Ignoring the order of erasure steps",
+      "why_it_happens": "Assuming the final erasure affects the original sequence without considering the sequential removal of digits, leading to incorrect position mappings.",
+      "how_to_avoid": "Explicitly track the order of erasures and their cumulative impact on the position list. Use a step-by-step approach to simulate each erasure and update positions accordingly."
+    },
+    {
+      "mistake_id": "err_091",
+      "description": "Incorrectly assuming the length of diagonal segments is linear instead of calculating the actual distance.",
+      "why_it_happens": "The segments $\\overline{P_kQ_k}$ are diagonal, not horizontal or vertical, so their lengths cannot be simplified as $4 - \\frac{k}{42}$ or similar. The correct length requires the distance formula, which involves both horizontal and vertical components.",
+      "how_to_avoid": "Always verify the nature of the segment (e.g., horizontal, vertical, or diagonal) and apply the appropriate distance formula. Avoid assuming linear relationships unless the segment is aligned with axes."
+    },
+    {
+      "mistake_id": "err_092",
+      "description": "Arithmetic errors in summing the lengths of segments.",
+      "why_it_happens": "The sum of the lengths was incorrectly calculated using a simplified formula, leading to an arithmetic error. For example, the sum $\\sum_{k=1}^{167} (4 - \\frac{k}{42})$ was miscalculated, resulting in an incorrect total.",
+      "how_to_avoid": "Double-check arithmetic operations, especially when dealing with fractions. Use step-by-step calculations and verify intermediate results to prevent cumulative errors."
+    },
+    {
+      "mistake_id": "err_093",
+      "description": "Miscounting the number of segments or misunderstanding the problem's requirements.",
+      "why_it_happens": "The problem specifies 335 parallel segments, but the initial calculation considered 167 segments from AB, 167 from AD, and 167 from CD, totaling 501. The diagonal AC was added, making 502 segments. However, the correct answer assumes only 167 segments from AB, leading to an incorrect total.",
+      "how_to_avoid": "Carefully verify the number of segments and their contributions. Ensure that the problem's requirements are fully understood and applied correctly, avoiding overcounting or undercounting segments."
+    },
+    {
+      "mistake_id": "err_094",
+      "description": "Failure to account for essential components in mathematical analysis.",
+      "why_it_happens": "Problems requiring subset counts, prime factor analysis, or modular arithmetic often miss critical components (e.g., empty set, prime powers, or residue classes), leading to undercounting or incorrect conclusions.",
+      "how_to_avoid": "Always verify if the problem includes required elements (e.g., empty set, prime powers, or residue classes) and ensure all necessary components are explicitly considered in the analysis."
+    },
+    {
+      "mistake_id": "err_095",
+      "description": "Incorrect application of periodicity or symmetry in trigonometric problems.",
+      "why_it_happens": "Failing to account for full periodicity or asymmetry in functions (e.g., sine's period 1/3 in [-1, 1]) leads to missed intersections or undercounted solutions.",
+      "how_to_avoid": "Verify periodicity and symmetry properties, break intervals into subintervals, and use graphical or algebraic methods to confirm intersection counts."
+    },
+    {
+      "mistake_id": "err_096",
+      "description": "Overcounting or undercounting in overlapping scenarios.",
+      "why_it_happens": "Neglecting overlapping elements or dependencies in combinatorial or inclusion-exclusion problems leads to overcounting or undercounting valid cases.",
+      "how_to_avoid": "Use inclusion-exclusion principles, account for shared elements explicitly, and verify counts through alternative methods or smaller examples."
+    },
+    {
+      "mistake_id": "err_097",
+      "description": "Misinterpreting geometric relationships in regular polygons.",
+      "why_it_happens": "Assuming distances between non-adjacent vertices (e.g., A-C in a hexagon) as equal to the side length, without applying trigonometric or vector-based analysis, leads to erroneous calculations.",
+      "how_to_avoid": "Verify geometric relationships using appropriate formulas (e.g., 2s*sin(π/3)) and apply vector analysis or coordinate geometry for non-adjacent vertices."
+    },
+    {
+      "mistake_id": "err_098",
+      "description": "Miscalculating probabilities or combinatorial configurations.",
+      "why_it_happens": "Incorrectly summing squared probabilities or misapplying combinatorial formulas (e.g., multinomial coefficients) leads to errors in counting valid configurations or outcomes.",
+      "how_to_avoid": "Carefully verify probability distributions and use verified combinatorial formulas (e.g., multinomial coefficients) to ensure accurate counts."
+    }
+  ],
+  "metadata": {
+    "source": "hierarchical merge from skill/artifacts/dapo_math/qwen3_1b/raw_skill_candidates.json using vllm:Qwen/Qwen3-1.7B",
+    "merge_group_size": 32,
+    "merge_stagnation_patience": 3,
+    "batch_size": 8,
+    "input_general_skills": 350,
+    "output_general_skills": 28,
+    "input_common_mistakes": 110,
+    "output_common_mistakes": 98,
+    "general_merge_layers": [
+      {
+        "layer_index": 0,
+        "input_items": 350,
+        "num_groups": 11,
+        "output_items": 211,
+        "stagnant_layers": 0,
+        "stopped_reason": null
+      },
+      {
+        "layer_index": 1,
+        "input_items": 211,
+        "num_groups": 7,
+        "output_items": 134,
+        "stagnant_layers": 0,
+        "stopped_reason": null
+      },
+      {
+        "layer_index": 2,
+        "input_items": 134,
+        "num_groups": 5,
+        "output_items": 114,
+        "stagnant_layers": 0,
+        "stopped_reason": null
+      },
+      {
+        "layer_index": 3,
+        "input_items": 114,
+        "num_groups": 4,
+        "output_items": 89,
+        "stagnant_layers": 0,
+        "stopped_reason": null
+      },
+      {
+        "layer_index": 4,
+        "input_items": 89,
+        "num_groups": 3,
+        "output_items": 62,
+        "stagnant_layers": 0,
+        "stopped_reason": null
+      },
+      {
+        "layer_index": 5,
+        "input_items": 62,
+        "num_groups": 2,
+        "output_items": 39,
+        "stagnant_layers": 0,
+        "stopped_reason": null
+      },
+      {
+        "layer_index": 6,
+        "input_items": 39,
+        "num_groups": 2,
+        "output_items": 28,
+        "stagnant_layers": 0,
+        "stopped_reason": null
+      },
+      {
+        "layer_index": 7,
+        "input_items": 28,
+        "num_groups": 1,
+        "output_items": 28,
+        "stagnant_layers": 1,
+        "stopped_reason": "root_group_reached"
+      }
+    ],
+    "common_mistake_merge_layers": [
+      {
+        "layer_index": 0,
+        "input_items": 110,
+        "num_groups": 4,
+        "output_items": 104,
+        "stagnant_layers": 0,
+        "stopped_reason": null
+      },
+      {
+        "layer_index": 1,
+        "input_items": 104,
+        "num_groups": 4,
+        "output_items": 98,
+        "stagnant_layers": 0,
+        "stopped_reason": null
+      },
+      {
+        "layer_index": 2,
+        "input_items": 98,
+        "num_groups": 4,
+        "output_items": 98,
+        "stagnant_layers": 1,
+        "stopped_reason": null
+      },
+      {
+        "layer_index": 3,
+        "input_items": 98,
+        "num_groups": 4,
+        "output_items": 98,
+        "stagnant_layers": 2,
+        "stopped_reason": null
+      },
+      {
+        "layer_index": 4,
+        "input_items": 98,
+        "num_groups": 4,
+        "output_items": 98,
+        "stagnant_layers": 3,
+        "stopped_reason": "stagnation_patience_reached"
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+You are an expert at consolidating independently-generated math failure lessons into a compact, non-redundant caution bank.
+
+You will be given up to 32 common-mistake items extracted from different memories. Some are duplicates, some partially overlap, and some are unique.
+
+Your task:
+1. Merge semantically duplicate or strongly overlapping mistakes.
+2. Preserve all unique insights.
+3. Prefer the most general, transferable wording.
+4. When several mistakes express the same underlying failure pattern, treat that recurrence as evidence that the pattern is systematic and synthesize one stronger mistake item.
+5. Do not force a fixed final count; output as many mistake items as are justified after deduplication.
+6. Do not mention specific problems, source memories, or dataset names.
+
+Common mistakes to merge:
+{items_json}
+
+Return ONLY valid JSON with this schema:
+{{
+  "common_mistakes": [
+    {{
+      "mistake_id": "err_tmp_001",
+      "description": "What went wrong.",
+      "why_it_happens": "Why this failure mode occurs.",
+      "how_to_avoid": "How to prevent it next time."
+    }}
+  ]
+}}

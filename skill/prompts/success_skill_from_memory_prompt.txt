@@ -1,0 +1,25 @@
+You are an expert at distilling mathematical reasoning behavior into concise, reusable skills for a reinforcement-learning agent.
+
+You will be given ONE successful math problem-solving memory. The memory contains the original problem, a compact reasoning trajectory, and a summarized raw attempt.
+
+Your task:
+1. Derive 1-3 GENERAL skills that likely contributed to the success.
+2. Each skill must be broadly reusable across algebra, geometry, number theory, combinatorics, and olympiad-style reasoning.
+3. Phrase each skill as an actionable principle; avoid task-specific constants, entity names, or one-off details unless they express a general method.
+4. Merge overlapping ideas inside this response; do not output near-duplicate skills.
+5. Use only evidence grounded in the provided memory.
+
+Successful memory:
+{memory_json}
+
+Return ONLY valid JSON with this schema:
+{{
+  "general_skills": [
+    {{
+      "skill_id": "gen_tmp_001",
+      "title": "Short title",
+      "principle": "One or two sentences describing the reusable principle.",
+      "when_to_apply": "Specific trigger condition."
+    }}
+  ]
+}}

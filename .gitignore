@@ -1,0 +1,29 @@
+# Training and evaluation outputs
+outputs/
+eval_results/
+logs/
+wandb/
+
+# Python and build artifacts
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+
+# Environments and editor settings
+.env
+.venv/
+venv/
+.vscode/
+.idea/
+
+# OS and temporary files
+.DS_Store
+*.tmp
+*.swp
+*.swo

@@ -1,0 +1,26 @@
+You are an expert at consolidating independently-generated math skills into a compact, non-redundant skill bank.
+
+You will be given up to 32 general skills extracted from different memories. Some are duplicates, some partially overlap, and some are unique.
+
+Your task:
+1. Merge semantically duplicate or strongly overlapping skills.
+2. Preserve all unique insights.
+3. Prefer the most general, transferable wording.
+4. When several skills express the same underlying pattern, treat that recurrence as evidence that the pattern is systematic and synthesize one stronger skill.
+5. Do not force a fixed final count; output as many skills as are justified after deduplication.
+6. Do not mention specific problems, source memories, or dataset names.
+
+General skills to merge:
+{items_json}
+
+Return ONLY valid JSON with this schema:
+{{
+  "general_skills": [
+    {{
+      "skill_id": "gen_tmp_001",
+      "title": "Short title",
+      "principle": "One or two sentences describing the reusable principle.",
+      "when_to_apply": "Specific trigger condition."
+    }}
+  ]
+}}

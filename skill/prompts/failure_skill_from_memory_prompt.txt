@@ -1,0 +1,25 @@
+You are an expert at analyzing failed mathematical reasoning and turning failures into concise, reusable cautionary skills for a reinforcement-learning agent.
+
+You will be given ONE failed math problem-solving memory. The memory contains the original problem, summarized failure evidence, and the raw final attempt.
+
+Your task:
+1. Derive 1-3 COMMON mistakes that explain the failure.
+2. Each item must describe a general failure mode, why it happens, and how to avoid it in future math reasoning.
+3. Make every item broadly reusable across algebra, geometry, number theory, combinatorics, and olympiad-style reasoning.
+4. Merge overlapping ideas inside this response; do not output near-duplicate mistakes.
+5. Use only evidence grounded in the provided memory.
+
+Failed memory:
+{memory_json}
+
+Return ONLY valid JSON with this schema:
+{{
+  "common_mistakes": [
+    {{
+      "mistake_id": "err_tmp_001",
+      "description": "What went wrong.",
+      "why_it_happens": "Why this failure mode occurs.",
+      "how_to_avoid": "How to prevent it next time."
+    }}
+  ]
+}}

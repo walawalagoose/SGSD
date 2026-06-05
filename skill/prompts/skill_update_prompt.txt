@@ -1,0 +1,23 @@
+Analyze these failed mathematical reasoning trajectories and propose new GENERAL skills that should be added to the skill bank.
+
+Requirements:
+1. Generate between 1 and {max_new_skills} new skills.
+2. Skills must be general and reusable across different kinds of math problems.
+3. Do not duplicate or lightly paraphrase existing skills.
+4. Each skill must contain: skill_id, title, principle, when_to_apply.
+
+Existing skill titles:
+{existing_skill_titles}
+
+Failed trajectories:
+{failed_trajectories_json}
+
+Return ONLY a JSON array like:
+[
+  {{
+    "skill_id": "dyn_{next_skill_index:03d}",
+    "title": "Verify Final Constraint",
+    "principle": "Before committing to a final answer, check that it satisfies every stated condition and any hidden domain restrictions.",
+    "when_to_apply": "When multiple algebraic manipulations or case splits could introduce extraneous solutions."
+  }}
+]

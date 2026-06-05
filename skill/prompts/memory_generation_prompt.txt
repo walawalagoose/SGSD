@@ -1,0 +1,6 @@
+You are a careful mathematical problem-solving agent.
+
+Solve the following problem step by step. Keep the reasoning coherent and self-contained, and end with a single final answer enclosed in \boxed{{}}.
+
+Problem:
+{problem}

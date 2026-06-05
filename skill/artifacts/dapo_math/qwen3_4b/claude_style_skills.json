@@ -1,0 +1,351 @@
+{
+  "general_skills": [
+    {
+      "skill_id": "gen_001",
+      "title": "Translate Constraints to Algebra",
+      "principle": "Convert geometric, number-theoretic, or combinatorial conditions into algebraic equations or expressions to isolate variables or derive relationships.",
+      "when_to_apply": "When solving problems with bounded variables, residue constraints, or spatial relationships."
+    },
+    {
+      "skill_id": "gen_002",
+      "title": "Simplify Expressions",
+      "principle": "Decompose complex expressions or ratios into simpler components using algebraic techniques, factoring, or number theory to reduce complexity.",
+      "when_to_apply": "When computing segment ratios, fractions, or simplifying discrete constraints."
+    },
+    {
+      "skill_id": "gen_003",
+      "title": "Systematic Case Analysis",
+      "principle": "Enumerate subcases by iterating through variable values or symmetry classes to ensure complete coverage of solution space.",
+      "when_to_apply": "When counting distinct configurations or validating outcomes under partitioned domains."
+    },
+    {
+      "skill_id": "gen_004",
+      "title": "Model Geometric Relationships",
+      "principle": "Use coordinate geometry, vectors, or geometric theorems to analyze spatial configurations or derive length/angle relationships.",
+      "when_to_apply": "When evaluating distances, areas, or proportions in geometric or parametric contexts."
+    },
+    {
+      "skill_id": "gen_005",
+      "title": "Apply Modular Arithmetic",
+      "principle": "Use congruence relations to derive constraints on variables under divisibility or residue conditions.",
+      "when_to_apply": "When solving problems requiring modular analysis or integer-based constraints."
+    },
+    {
+      "skill_id": "gen_006",
+      "title": "Analyze Symmetries",
+      "principle": "Adjust counts or configurations by dividing total possibilities by symmetry group order to account for equivalent arrangements.",
+      "when_to_apply": "When evaluating distinct arrangements under rotational or reflective symmetry."
+    },
+    {
+      "skill_id": "gen_007",
+      "title": "Validate Solutions",
+      "principle": "Test candidate solutions against original constraints or edge cases to ensure consistency across scenarios.",
+      "when_to_apply": "After deriving formulas or results, to confirm correctness under varied conditions."
+    },
+    {
+      "skill_id": "gen_008",
+      "title": "Pattern Recognition",
+      "principle": "Identify recurring structures in sequences, ratios, or configurations to derive general rules or closed-form expressions.",
+      "when_to_apply": "When analyzing arithmetic, geometric, or combinatorial patterns."
+    },
+    {
+      "skill_id": "gen_009",
+      "title": "Combinatorial Counting",
+      "principle": "Count distinct permutations, combinations, or arrangements using formulas or systematic enumeration under constraints.",
+      "when_to_apply": "When assigning roles, positions, or values to unique entities with discrete options."
+    },
+    {
+      "skill_id": "gen_010",
+      "title": "Constraint Optimization",
+      "principle": "Maximize/minimize expressions or narrow down cases by analyzing variable relationships, parity, or integer properties under constraints.",
+      "when_to_apply": "When optimizing functions or solving equations with bounded variable ranges."
+    },
+    {
+      "skill_id": "gen_011",
+      "title": "Recursive/Iterative Analysis",
+      "principle": "Identify recurrence relations or iterative patterns to derive closed-form formulas or simplify sequences.",
+      "when_to_apply": "When working with sequences defined by recursive or iterative rules."
+    },
+    {
+      "skill_id": "gen_012",
+      "title": "Invariant Recognition",
+      "principle": "Identify properties or expressions that remain unchanged under transformations or variable adjustments.",
+      "when_to_apply": "When solving problems dependent on constant relationships unaffected by parameters."
+    },
+    {
+      "skill_id": "gen_013",
+      "title": "Volume/Proportion Analysis",
+      "principle": "Use volume conservation or ratio principles to evaluate container feasibility or object fitting under transformations.",
+      "when_to_apply": "When analyzing volume-based constraints or reshaping scenarios."
+    },
+    {
+      "skill_id": "gen_014",
+      "title": "Probability Modeling",
+      "principle": "Calculate probabilities via combinatorial methods, binomial formulas, or symmetry-based enumeration.",
+      "when_to_apply": "When analyzing random assignments, permutations, or expected values."
+    },
+    {
+      "skill_id": "gen_015",
+      "title": "Divisibility Analysis",
+      "principle": "Use modular arithmetic or prime factorization to verify divisibility or analyze divisors.",
+      "when_to_apply": "When evaluating large expressions or prime decomposition constraints."
+    },
+    {
+      "skill_id": "gen_016",
+      "title": "Polynomial Analysis",
+      "principle": "Factor polynomials, apply discriminant conditions, or use root properties to simplify expressions.",
+      "when_to_apply": "When analyzing polynomials or equations with real root requirements."
+    },
+    {
+      "skill_id": "gen_017",
+      "title": "Outlier Detection",
+      "principle": "Identify extreme values using statistical thresholds like interquartile range (IQR) to flag anomalies in datasets.",
+      "when_to_apply": "When analyzing datasets to isolate statistical outliers."
+    },
+    {
+      "skill_id": "gen_018",
+      "title": "Angle and Ratio Analysis",
+      "principle": "Apply trigonometric identities or vector proportionality to resolve relationships between angles, directions, or ratios.",
+      "when_to_apply": "When solving geometric or algebraic problems involving angles, vectors, or proportional relationships."
+    },
+    {
+      "skill_id": "gen_019",
+      "title": "Constraint Validation",
+      "principle": "Verify solution validity or derive bounds using inequalities, average/range reasoning, or divisibility checks.",
+      "when_to_apply": "When ensuring solutions meet constraints, narrowing candidate sets, or analyzing bounds under range or proportionality conditions."
+    },
+    {
+      "skill_id": "gen_020",
+      "title": "Combinatorial and Set Reasoning",
+      "principle": "Apply permutations, combinations, or set operations to count configurations or analyze overlaps under constraints.",
+      "when_to_apply": "When determining counts, partitions, or relationships in set-based or positional problems."
+    },
+    {
+      "skill_id": "gen_021",
+      "title": "Optimization via Decomposition",
+      "principle": "Break complex systems into independent components, compute individual contributions, and combine results for totals or extrema.",
+      "when_to_apply": "When decomposing problems into manageable parts, such as paths, probabilities, or resource allocations."
+    },
+    {
+      "skill_id": "gen_022",
+      "title": "Case and Path Analysis",
+      "principle": "Systematically explore distinct cases or paths to aggregate results from conditional, overlapping, or sequential scenarios.",
+      "when_to_apply": "When solving problems requiring exhaustive consideration of multiple scenarios or constraints."
+    },
+    {
+      "skill_id": "gen_023",
+      "title": "Form and Translation Simplification",
+      "principle": "Use algebraic, trigonometric, or geometric transformations to simplify expressions, equations, or spatial relationships.",
+      "when_to_apply": "When translating geometric configurations into algebraic forms or simplifying complex expressions."
+    },
+    {
+      "skill_id": "gen_024",
+      "title": "Factorization and Identity Analysis",
+      "principle": "Simplify equations by factoring terms or leveraging algebraic identities to derive structural constraints.",
+      "when_to_apply": "When solving diophantine equations, analyzing divisibility, or identifying expression properties."
+    }
+  ],
+  "task_specific_skills": {},
+  "common_mistakes": [
+    {
+      "mistake_id": "err_001",
+      "description": "Misinterpreting problem configurations leads to incorrect assumptions about geometric or combinatorial relationships.",
+      "why_it_happens": "Failure to analyze the problem's structure or spatial relationships results in flawed assumptions about overlaps, constraints, or contributions of elements (e.g., sides, factors, or positions).",
+      "how_to_avoid": "Carefully re-express the problem's configuration in terms of coordinates, relative positions, or logical dependencies to ensure accurate modeling of constraints and interactions."
+    },
+    {
+      "mistake_id": "err_002",
+      "description": "Ignoring critical constraints or interdependent conditions in combinatorial or geometric problems.",
+      "why_it_happens": "Overlooking dependencies between variables or rules (e.g., weight-height restrictions, coprimality, or parity) leads to incomplete or invalid solutions.",
+      "how_to_avoid": "Explicitly verify that all constraints, including non-adjacent or interdependent relationships, are integrated into the solution framework before finalizing results."
+    },
+    {
+      "mistake_id": "err_003",
+      "description": "Failing to validate the final answer against the problem's requirements or constraints.",
+      "why_it_happens": "Overconfidence in intermediate steps or misaligned assumptions about the problem's goal (e.g., year vs. duration, min vs. max) results in answers that contradict the question's exact phrasing or conditions.",
+      "how_to_avoid": "Always confirm that the final answer aligns with the problem's question and satisfies all stated constraints, especially when the problem involves multiple steps or hidden conditions."
+    },
+    {
+      "mistake_id": "err_004",
+      "description": "Not considering exceptions or edge cases in rule-based problems (e.g., leap years, parity, or geometric configurations).",
+      "why_it_happens": "Assuming general rules apply universally without checking for exceptions (e.g., century years, special cases in permutations, or geometric constraints) leads to invalid conclusions.",
+      "how_to_avoid": "Explicitly verify that the solution accounts for all exceptions and edge cases, particularly those that invalidate general assumptions (e.g., leap year rules, parity-based swaps)."
+    },
+    {
+      "mistake_id": "err_005",
+      "description": "Overlooking the need to explore all possible solutions in parametric or combinatorial contexts.",
+      "why_it_happens": "Focusing on immediate or apparent solutions (e.g., Pell equations, integer fractions) without systematically testing alternative cases leads to incomplete or incorrect results.",
+      "how_to_avoid": "Systematically explore all possible solutions, especially when the problem requires minimality, maximality, or exhaustive case analysis, and verify that the solution meets the problem's specific constraints."
+    },
+    {
+      "mistake_id": "err_006",
+      "description": "Incorrectly applying mathematical theorems or formulas without verifying their applicability.",
+      "why_it_happens": "Misapplying theorems (e.g., angle bisector, permutation properties) or formulas (e.g., energy conservation) without checking their conditions or geometric/physical validity leads to flawed results.",
+      "how_to_avoid": "Always verify that the theorem or formula is applicable to the problem's context and that its conditions are explicitly satisfied before using it in the solution."
+    },
+    {
+      "mistake_id": "err_007",
+      "description": "Miscalculating or misinterpreting the relationship between derived values and the problem's final answer.",
+      "why_it_happens": "Errors in algebraic manipulation, partial fraction decomposition, or telescoping series steps propagate to incorrect final values, especially when the problem requires specific forms (e.g., $\\frac{m^2}{2n^2}$).",
+      "how_to_avoid": "Carefully verify each algebraic step and ensure that the final value aligns with the problem's required form, solving for variables (e.g., $m, n$) explicitly when needed."
+    },
+    {
+      "mistake_id": "err_008",
+      "description": "Failing to account for geometric or physical constraints in spatial or dynamic problems.",
+      "why_it_happens": "Ignoring geometric relationships (e.g., distances, tangency) or physical principles (e.g., rolling without slipping) leads to incorrect calculations of rotations, forces, or configurations.",
+      "how_to_avoid": "Carefully analyze the problem's geometric or physical setup, using known properties (e.g., regular polygons, Hooke's law) to ensure accurate modeling of constraints and relationships."
+    },
+    {
+      "mistake_id": "err_009",
+      "description": "Not testing all critical cases in combinatorial or recursive reasoning.",
+      "why_it_happens": "Relying on partial examples or intuition without systematically testing edge cases (e.g., small $k$, special configurations) leads to solutions that fail for broader scenarios.",
+      "how_to_avoid": "Systematically test all critical cases, including edge cases, and ensure the solution holds universally, not just for observed examples."
+    },
+    {
+      "mistake_id": "err_010",
+      "description": "Confusing the minimum or maximum required value with the derived result.",
+      "why_it_happens": "Misinterpreting the problem's goal (e.g., minimum vs. maximum) or miscalculating the relationship between derived values and the problem's requirements leads to incorrect answers.",
+      "how_to_avoid": "Always explicitly verify that the derived value aligns with the problem's goal (e.g., minimum, maximum, or specific form) and cross-check calculations against the ground truth or alternative reasoning."
+    },
+    {
+      "mistake_id": "err_011",
+      "description": "Ignoring the numerical relationship between conditions and answer format, leading to a mismatch between derived expressions and expected results.",
+      "why_it_happens": "The solver derived $ h = \\frac{H}{2} $ but failed to recognize that the problem required a numerical answer (e.g., $ k + m = 3 $) rather than an algebraic expression in terms of $ H $, resulting in a failure to align with the ground truth.",
+      "how_to_avoid": "Carefully parse the problem's requirements for the final answer format (e.g., numerical value, algebraic expression) and ensure all derived equations are consistent with the problem's stated goals, not just intermediate steps."
+    },
+    {
+      "mistake_id": "err_012",
+      "description": "Incorrectly applying divisibility rules from one number to another and failing to validate constructed numbers against the actual requirement.",
+      "why_it_happens": "The reasoning conflated divisibility rules for 9 (sum of digits) with those for 11111, leading to an invalid assumption about the number's properties, and generated numbers based on an incorrect premise without checking against the true divisibility condition.",
+      "how_to_avoid": "Verify that the divisibility condition for the target number is correctly applied, not relying on rules from other numbers, and always cross-check that the final count adheres to the problem's exact constraints."
+    },
+    {
+      "mistake_id": "err_013",
+      "description": "Failing to consider combined constraints of multiple prime factors in modulus decomposition, instead using minima or focusing on individual moduli.",
+      "why_it_happens": "The problem requires the square of the distance to be divisible by 2016 (factors 2^5, 3^2, 7), but the approach only considered the most restrictive modulus (mod 9) or used minima instead of the product of valid residue classes for each prime power component.",
+      "how_to_avoid": "For composite moduli, compute the total number of valid residue classes as the product of valid classes for each prime power component, then add 1 to ensure overlap, and account for all prime power factors simultaneously."
+    },
+    {
+      "mistake_id": "err_014",
+      "description": "Misapplying combinatorial methods for circular arrangements by linearizing the problem or fixing positions, leading to undercounting.",
+      "why_it_happens": "Fixing a handout and treating the remaining placements as linear ignores rotational symmetries, or treating circular problems as linear after fixing positions leads to an undercount of valid configurations.",
+      "how_to_avoid": "Use combinatorial methods tailored to circular constraints, such as accounting for rotational equivalence through proper counting techniques, and avoid over-constraining the problem by fixing positions."
+    },
+    {
+      "mistake_id": "err_015",
+      "description": "Failing to verify the final answer against the problem's constraints, leading to incorrect conclusions.",
+      "why_it_happens": "The solution did not validate the derived answer (50) against the problem's requirements (e.g., ensuring all non-handout individuals are adjacent to at least one handout), resulting in a mismatch with the correct answer (125).",
+      "how_to_avoid": "Always cross-check the final answer against the problem's constraints and ground truth. Use small cases or alternative methods to confirm the validity of the solution before finalizing."
+    }
+  ],
+  "metadata": {
+    "source": "hierarchical merge from skill/artifacts/dapo_math/qwen3_4b/raw_skill_candidates.json using vllm:Qwen/Qwen3-4B",
+    "merge_group_size": 32,
+    "merge_stagnation_patience": 3,
+    "batch_size": 8,
+    "input_general_skills": 505,
+    "output_general_skills": 24,
+    "input_common_mistakes": 41,
+    "output_common_mistakes": 15,
+    "general_merge_layers": [
+      {
+        "layer_index": 0,
+        "input_items": 505,
+        "num_groups": 16,
+        "output_items": 264,
+        "stagnant_layers": 0,
+        "stopped_reason": null
+      },
+      {
+        "layer_index": 1,
+        "input_items": 264,
+        "num_groups": 9,
+        "output_items": 190,
+        "stagnant_layers": 0,
+        "stopped_reason": null
+      },
+      {
+        "layer_index": 2,
+        "input_items": 190,
+        "num_groups": 6,
+        "output_items": 133,
+        "stagnant_layers": 0,
+        "stopped_reason": null
+      },
+      {
+        "layer_index": 3,
+        "input_items": 133,
+        "num_groups": 5,
+        "output_items": 96,
+        "stagnant_layers": 0,
+        "stopped_reason": null
+      },
+      {
+        "layer_index": 4,
+        "input_items": 96,
+        "num_groups": 3,
+        "output_items": 50,
+        "stagnant_layers": 0,
+        "stopped_reason": null
+      },
+      {
+        "layer_index": 5,
+        "input_items": 50,
+        "num_groups": 2,
+        "output_items": 44,
+        "stagnant_layers": 0,
+        "stopped_reason": null
+      },
+      {
+        "layer_index": 6,
+        "input_items": 44,
+        "num_groups": 2,
+        "output_items": 40,
+        "stagnant_layers": 0,
+        "stopped_reason": null
+      },
+      {
+        "layer_index": 7,
+        "input_items": 40,
+        "num_groups": 2,
+        "output_items": 40,
+        "stagnant_layers": 1,
+        "stopped_reason": null
+      },
+      {
+        "layer_index": 8,
+        "input_items": 40,
+        "num_groups": 2,
+        "output_items": 32,
+        "stagnant_layers": 0,
+        "stopped_reason": null
+      },
+      {
+        "layer_index": 9,
+        "input_items": 32,
+        "num_groups": 1,
+        "output_items": 24,
+        "stagnant_layers": 0,
+        "stopped_reason": "root_group_reached"
+      }
+    ],
+    "common_mistake_merge_layers": [
+      {
+        "layer_index": 0,
+        "input_items": 41,
+        "num_groups": 2,
+        "output_items": 15,
+        "stagnant_layers": 0,
+        "stopped_reason": null
+      },
+      {
+        "layer_index": 1,
+        "input_items": 15,
+        "num_groups": 1,
+        "output_items": 15,
+        "stagnant_layers": 1,
+        "stopped_reason": "root_group_reached"
+      }
+    ]
+  }
+}

@@ -1,0 +1,529 @@
+{
+  "general_skills": [
+    {
+      "skill_id": "gen_001",
+      "title": "Case Analysis",
+      "principle": "Partition problems into distinct cases based on constraints or structural properties to explore all valid configurations systematically.",
+      "when_to_apply": "When solutions involve interdependent conditions, categorical distinctions, or boundary cases."
+    },
+    {
+      "skill_id": "gen_002",
+      "title": "Constraint Application",
+      "principle": "Formalize and apply problem constraints through algebraic relationships, domain restrictions, or logical boundaries to narrow solution spaces.",
+      "when_to_apply": "For problems with bounded variables, equations involving non-negativity, or prime-dependent conditions."
+    },
+    {
+      "skill_id": "gen_003",
+      "title": "Optimization Techniques",
+      "principle": "Use extremal value assignments, ratio analysis, or fixed-sum relationships to maximize/minimize target functions under constraints.",
+      "when_to_apply": "When optimizing sums, products, or packing density with bounded variable domains."
+    },
+    {
+      "skill_id": "gen_004",
+      "title": "Pattern Recognition",
+      "principle": "Identify recurring structures, sequences, or transformation rules to generalize solutions across layers or iterations.",
+      "when_to_apply": "When repetitive operations or constraints exhibit consistent patterns that can be abstracted for broader application."
+    },
+    {
+      "skill_id": "gen_005",
+      "title": "Symmetry Utilization",
+      "principle": "Leverage symmetry properties to simplify problems or adjust counts for equivalent configurations.",
+      "when_to_apply": "When dealing with symmetric figures, transformations, or equidistant geometric arrangements."
+    },
+    {
+      "skill_id": "gen_006",
+      "title": "Algebraic Manipulation",
+      "principle": "Transform complex expressions through substitution, factoring, or identity recognition to isolate variables or reveal simplifications.",
+      "when_to_apply": "When direct computation is obstructed by interdependent variables or complex term interactions."
+    },
+    {
+      "skill_id": "gen_007",
+      "title": "Geometric Analysis",
+      "principle": "Translate spatial relationships into algebraic equations or decompose shapes to reveal hidden structural properties.",
+      "when_to_apply": "When geometric intuition is insufficient, and symbolic manipulation or symmetry can clarify relationships."
+    },
+    {
+      "skill_id": "gen_008",
+      "title": "Solution Validation",
+      "principle": "Verify candidate solutions against all problem criteria and constraints to ensure mathematical and contextual correctness.",
+      "when_to_apply": "After generating potential solutions, exploring boundary cases, or resolving systems with multiple constraints."
+    },
+    {
+      "skill_id": "gen_009",
+      "title": "Number Theory",
+      "principle": "Apply divisibility rules, modular arithmetic, and prime factorization to analyze number properties and solve equations.",
+      "when_to_apply": "When dealing with integer constraints, periodicity, or divisibility conditions."
+    },
+    {
+      "skill_id": "gen_010",
+      "title": "Recurrence Solving",
+      "principle": "Express recurrence relations as telescoping sums or solve linear recurrences using characteristic equations to derive closed-form solutions.",
+      "when_to_apply": "When solving sequences defined by overlapping functional equations or probabilistic steps."
+    },
+    {
+      "skill_id": "gen_011",
+      "title": "Combinatorial Analysis",
+      "principle": "Systematically enumerate configurations using case analysis, inclusion-exclusion, or constraint-driven partitioning.",
+      "when_to_apply": "When enumerating subsets, sequences, or arrangements with conditional constraints."
+    },
+    {
+      "skill_id": "gen_012",
+      "title": "Proportional Reasoning",
+      "principle": "Apply similarity scaling, proportional reasoning, or percentage changes to connect measurements or quantities.",
+      "when_to_apply": "When dealing with scaled figures, parallel lines, or multiplicative comparisons between quantities."
+    },
+    {
+      "skill_id": "gen_013",
+      "title": "Boundary Analysis",
+      "principle": "Evaluate extreme values or compare growth rates of equation sides to eliminate impossible solution ranges.",
+      "when_to_apply": "When solving equations with mixed polynomial/exponential terms or analyzing behavior under extremal constraints."
+    },
+    {
+      "skill_id": "gen_014",
+      "title": "State Transition Analysis",
+      "principle": "Represent cyclic or symmetric systems as state machines to apply recurrence relations or matrix methods.",
+      "when_to_apply": "When problems involve periodic behavior or symmetric state interactions."
+    },
+    {
+      "skill_id": "gen_015",
+      "title": "Digit Pattern Enumeration",
+      "principle": "Decompose numbers by place value and aggregate digit occurrences across ranges for systematic counting.",
+      "when_to_apply": "When determining digit usage in structured numerical sequences."
+    },
+    {
+      "skill_id": "gen_016",
+      "title": "Resource Optimization",
+      "principle": "Identify maximum demand for individual components to determine required resource quantities.",
+      "when_to_apply": "When resources are bundled to cover multiple components with variable dependencies."
+    },
+    {
+      "skill_id": "gen_017",
+      "title": "Behavioral Constraint Analysis",
+      "principle": "Leverage monotonicity, extrema, or asymptotic properties to validate solutions in optimization or parameter estimation.",
+      "when_to_apply": "When multiple solutions exist in exponential/logarithmic contexts requiring additional constraints."
+    },
+    {
+      "skill_id": "gen_018",
+      "title": "Verification by Perturbation",
+      "principle": "Test small deviations from a candidate solution to confirm optimality or completeness.",
+      "when_to_apply": "After deriving a potential solution to ensure no better option exists."
+    },
+    {
+      "skill_id": "gen_019",
+      "title": "Probability Techniques",
+      "principle": "Compute expectations using ratio constraints, apply geometric distributions for waiting times, or use union bounds for probability estimates.",
+      "when_to_apply": "When solving for expectations under variable relationships or estimating bounds for intersecting events."
+    },
+    {
+      "skill_id": "gen_020",
+      "title": "Logarithmic Techniques",
+      "principle": "Convert logarithmic expressions to exponential forms or apply identities to uncover variable relationships and simplify complex equations.",
+      "when_to_apply": "When solving logarithmic equations, transforming multiplicative relationships into sums, or comparing exponential growth."
+    },
+    {
+      "skill_id": "gen_021",
+      "title": "Problem Decomposition",
+      "principle": "Break complex problems into sequential subproblems or independent components for modular analysis.",
+      "when_to_apply": "For multi-step problems requiring isolated solution steps."
+    },
+    {
+      "skill_id": "gen_022",
+      "title": "Number Property Analysis",
+      "principle": "Filter cases or simplify expressions using divisibility, modular arithmetic, or integer classification.",
+      "when_to_apply": "For problems involving number characteristics, remainders, or factorization."
+    },
+    {
+      "skill_id": "gen_023",
+      "title": "Algebraic Simplification",
+      "principle": "Reduce complexity by simplifying expressions, solving equations, or applying identities.",
+      "when_to_apply": "For structured numerical patterns or intractable expressions."
+    },
+    {
+      "skill_id": "gen_024",
+      "title": "Combinatorial Counting",
+      "principle": "Systematically count configurations by iterating through constraints or categorizing arrangements.",
+      "when_to_apply": "For permutation problems, distribution scenarios, or path enumeration with exclusion rules."
+    },
+    {
+      "skill_id": "gen_025",
+      "title": "Probability Modeling",
+      "principle": "Calculate probabilities by aggregating weighted outcomes under probabilistic constraints.",
+      "when_to_apply": "For problems involving random variable distributions or sequential state transitions."
+    },
+    {
+      "skill_id": "gen_026",
+      "title": "Geometric Reasoning",
+      "principle": "Model spatial relationships through coordinate systems or geometric properties for algebraic solutions.",
+      "when_to_apply": "For problems involving distances, coordinates, or variable-parameter geometry."
+    },
+    {
+      "skill_id": "gen_027",
+      "title": "Function Analysis",
+      "principle": "Determine solution counts by examining function ranges, critical points, and monotonicity.",
+      "when_to_apply": "For parameterized equations requiring solution behavior analysis."
+    },
+    {
+      "skill_id": "gen_028",
+      "title": "Iterative Analysis",
+      "principle": "Examine recursive processes by identifying invariants, termination conditions, or transformation patterns.",
+      "when_to_apply": "For recursive functions, sequences, or state transitions with evolving parameters."
+    },
+    {
+      "skill_id": "gen_029",
+      "title": "Edge Case Evaluation",
+      "principle": "Identify parameter values causing degeneracy and adjust solution ranges to ensure uniqueness.",
+      "when_to_apply": "When multiple solutions exist, check for parameter values reducing solution count to one."
+    },
+    {
+      "skill_id": "gen_030",
+      "title": "Modular Arithmetic",
+      "principle": "Use modular arithmetic to simplify calculations, verify divisibility, or solve congruences through periodicity.",
+      "when_to_apply": "For problems involving last digits, cyclic patterns, or divisibility constraints."
+    },
+    {
+      "skill_id": "gen_031",
+      "title": "Inequality Analysis",
+      "principle": "Combine inequalities to establish direct variable relationships and resolve contradictions.",
+      "when_to_apply": "For problems with interdependent inequalities or variable constraints."
+    },
+    {
+      "skill_id": "gen_032",
+      "title": "Equation Resolution",
+      "principle": "Solve systems of equations through substitution, elimination, or parameterization to satisfy interdependent constraints.",
+      "when_to_apply": "For multi-variable problems requiring variable isolation or constraint satisfaction."
+    },
+    {
+      "skill_id": "gen_033",
+      "title": "Expression Simplification",
+      "principle": "Apply algebraic identities or functional transformations to reduce mathematical expressions to simpler forms.",
+      "when_to_apply": "For problems involving radicals, polynomials, or trigonometric functions."
+    },
+    {
+      "skill_id": "gen_034",
+      "title": "Probabilistic Reasoning",
+      "principle": "Aggregate weighted outcomes under probabilistic constraints to compute expected values or state transitions.",
+      "when_to_apply": "For problems with random variable distributions or state transition systems."
+    },
+    {
+      "skill_id": "gen_035",
+      "title": "Digit Decomposition",
+      "principle": "Break numbers into positional components to form algebraic representations of digit patterns.",
+      "when_to_apply": "When solving problems with positional constraints or digit-based patterns."
+    },
+    {
+      "skill_id": "gen_036",
+      "title": "Prime Constraint Analysis",
+      "principle": "Verify primality conditions or solve equations with prime number constraints.",
+      "when_to_apply": "For problems requiring prime divisors with specific sum/product properties."
+    },
+    {
+      "skill_id": "gen_037",
+      "title": "Reverse Process Modeling",
+      "principle": "Work backward from target states by applying inverse operations with periodic adjustments.",
+      "when_to_apply": "For staged modification problems with deletion or transformation patterns."
+    },
+    {
+      "skill_id": "gen_038",
+      "title": "Solution Space Construction",
+      "principle": "Generate candidate solutions using parameterized families that satisfy structural constraints.",
+      "when_to_apply": "For Diophantine equations or integer solution patterns."
+    },
+    {
+      "skill_id": "gen_039",
+      "title": "Integer Scaling Optimization",
+      "principle": "Minimize target quantities by testing minimal integer scaling parameters with common factors.",
+      "when_to_apply": "For problems requiring proportional integer solutions with common factors."
+    },
+    {
+      "skill_id": "gen_040",
+      "title": "Non-Negativity Enforcement",
+      "principle": "Use non-negative term summation properties to enforce uniqueness in equations.",
+      "when_to_apply": "For equations involving squares, absolute values, or non-negative expressions."
+    },
+    {
+      "skill_id": "gen_041",
+      "title": "Fractional Simplification",
+      "principle": "Combine and reduce fractions to compute numerator-denominator sums or simplified forms.",
+      "when_to_apply": "For final answers requiring reduced fractional forms."
+    },
+    {
+      "skill_id": "gen_042",
+      "title": "Domain Constraint Application",
+      "principle": "Limit analysis to feasible domains using function bounds and variable constraints.",
+      "when_to_apply": "For equations with bounded functions and variable interactions."
+    },
+    {
+      "skill_id": "gen_043",
+      "title": "Boundary Case Testing",
+      "principle": "Validate solutions through minimal values, edge cases, or exceptional scenarios.",
+      "when_to_apply": "For minimal solutions, constraint validation, or pattern exceptions."
+    },
+    {
+      "skill_id": "gen_044",
+      "title": "Periodic Pattern Analysis",
+      "principle": "Leverage periodicity to infer solution counts from localized intervals.",
+      "when_to_apply": "For equations with trigonometric or symmetric periodic structures."
+    },
+    {
+      "skill_id": "gen_045",
+      "title": "Geometric Constraint Modeling",
+      "principle": "Formulate algebraic equations from geometric relationships and properties.",
+      "when_to_apply": "For problems with multiple geometric constraints requiring algebraic formulation."
+    },
+    {
+      "skill_id": "gen_046",
+      "title": "Tangency Relationship Derivation",
+      "principle": "Use geometric perpendicularity properties to derive solution relationships.",
+      "when_to_apply": "For problems involving circles, lines, and tangent curves."
+    }
+  ],
+  "task_specific_skills": {},
+  "common_mistakes": [
+    {
+      "mistake_id": "err_001",
+      "description": "Assuming unverified mathematical relationships or properties.",
+      "why_it_happens": "The agent conflates problem elements, assumes properties without proof, or applies theorems without verifying their conditions, leading to invalid conclusions.",
+      "how_to_avoid": "Derive relationships rigorously, confirm theorem applicability, and test edge cases before proceeding."
+    },
+    {
+      "mistake_id": "err_002",
+      "description": "Overlooking edge cases or missing scenarios.",
+      "why_it_happens": "The agent neglects boundary conditions, fails to account for all valid cases, or miscalculates counts due to incomplete enumeration.",
+      "how_to_avoid": "Systematically enumerate all potential cases, including edge cases, and validate against problem constraints."
+    },
+    {
+      "mistake_id": "err_003",
+      "description": "Misinterpreting problem terms or constraints.",
+      "why_it_happens": "The agent misreads key terms, overlooks implicit constraints, or misaligns definitions with problem requirements.",
+      "how_to_avoid": "Carefully parse problem language, map terms to definitions, and validate interpretations against logical structure."
+    },
+    {
+      "mistake_id": "err_004",
+      "description": "Incorrect application of series or telescoping techniques.",
+      "why_it_happens": "Errors occur in partial fraction decomposition, telescoping setup, or index alignment, leading to invalid summation results.",
+      "how_to_avoid": "Verify decomposition steps, ensure telescoping alignment with summation bounds, and test intermediate results."
+    },
+    {
+      "mistake_id": "err_005",
+      "description": "Overlooking constraints in permutations or subsets.",
+      "why_it_happens": "The agent ignores ordering constraints or misapplies combinatorial logic, resulting in invalid configurations.",
+      "how_to_avoid": "Explicitly enforce all problem-specific constraints during combinatorial analysis and validate configurations."
+    },
+    {
+      "mistake_id": "err_006",
+      "description": "Misunderstanding conditional probability or percentage requirements.",
+      "why_it_happens": "The agent confuses absolute percentages with conditional probabilities or misinterprets subset relationships.",
+      "how_to_avoid": "Clarify the probabilistic structure and ensure calculations reflect the correct base set for each condition."
+    },
+    {
+      "mistake_id": "err_007",
+      "description": "Failing to validate answers against constraints or format.",
+      "why_it_happens": "The agent concludes without checking alignment with required formats, numerical constraints, or logical consistency.",
+      "how_to_avoid": "Cross-check final answers against all problem requirements, including formatting and constraints."
+    },
+    {
+      "mistake_id": "err_008",
+      "description": "Overcomplicating problems with advanced methods.",
+      "why_it_happens": "The agent applies complex techniques without verifying their relevance, introducing errors in derivation.",
+      "how_to_avoid": "Use advanced methods only when their applicability is clear and verify intermediate steps with simpler approaches."
+    }
+  ],
+  "metadata": {
+    "source": "hierarchical merge from skill/artifacts/dapo_math/qwen3_8b/raw_skill_candidates.json using vllm:Qwen/Qwen3-8B",
+    "merge_group_size": 32,
+    "merge_stagnation_patience": 3,
+    "batch_size": 8,
+    "input_general_skills": 575,
+    "output_general_skills": 46,
+    "input_common_mistakes": 34,
+    "output_common_mistakes": 8,
+    "general_merge_layers": [
+      {
+        "layer_index": 0,
+        "input_items": 575,
+        "num_groups": 18,
+        "output_items": 385,
+        "stagnant_layers": 0,
+        "stopped_reason": null
+      },
+      {
+        "layer_index": 1,
+        "input_items": 385,
+        "num_groups": 13,
+        "output_items": 293,
+        "stagnant_layers": 0,
+        "stopped_reason": null
+      },
+      {
+        "layer_index": 2,
+        "input_items": 293,
+        "num_groups": 10,
+        "output_items": 250,
+        "stagnant_layers": 0,
+        "stopped_reason": null
+      },
+      {
+        "layer_index": 3,
+        "input_items": 250,
+        "num_groups": 8,
+        "output_items": 222,
+        "stagnant_layers": 0,
+        "stopped_reason": null
+      },
+      {
+        "layer_index": 4,
+        "input_items": 222,
+        "num_groups": 7,
+        "output_items": 172,
+        "stagnant_layers": 0,
+        "stopped_reason": null
+      },
+      {
+        "layer_index": 5,
+        "input_items": 172,
+        "num_groups": 6,
+        "output_items": 168,
+        "stagnant_layers": 0,
+        "stopped_reason": null
+      },
+      {
+        "layer_index": 6,
+        "input_items": 168,
+        "num_groups": 6,
+        "output_items": 134,
+        "stagnant_layers": 0,
+        "stopped_reason": null
+      },
+      {
+        "layer_index": 7,
+        "input_items": 134,
+        "num_groups": 5,
+        "output_items": 106,
+        "stagnant_layers": 0,
+        "stopped_reason": null
+      },
+      {
+        "layer_index": 8,
+        "input_items": 106,
+        "num_groups": 4,
+        "output_items": 86,
+        "stagnant_layers": 0,
+        "stopped_reason": null
+      },
+      {
+        "layer_index": 9,
+        "input_items": 86,
+        "num_groups": 3,
+        "output_items": 84,
+        "stagnant_layers": 0,
+        "stopped_reason": null
+      },
+      {
+        "layer_index": 10,
+        "input_items": 84,
+        "num_groups": 3,
+        "output_items": 80,
+        "stagnant_layers": 0,
+        "stopped_reason": null
+      },
+      {
+        "layer_index": 11,
+        "input_items": 80,
+        "num_groups": 3,
+        "output_items": 77,
+        "stagnant_layers": 0,
+        "stopped_reason": null
+      },
+      {
+        "layer_index": 12,
+        "input_items": 77,
+        "num_groups": 3,
+        "output_items": 74,
+        "stagnant_layers": 0,
+        "stopped_reason": null
+      },
+      {
+        "layer_index": 13,
+        "input_items": 74,
+        "num_groups": 3,
+        "output_items": 74,
+        "stagnant_layers": 1,
+        "stopped_reason": null
+      },
+      {
+        "layer_index": 14,
+        "input_items": 74,
+        "num_groups": 3,
+        "output_items": 50,
+        "stagnant_layers": 0,
+        "stopped_reason": null
+      },
+      {
+        "layer_index": 15,
+        "input_items": 50,
+        "num_groups": 2,
+        "output_items": 47,
+        "stagnant_layers": 0,
+        "stopped_reason": null
+      },
+      {
+        "layer_index": 16,
+        "input_items": 47,
+        "num_groups": 2,
+        "output_items": 47,
+        "stagnant_layers": 1,
+        "stopped_reason": null
+      },
+      {
+        "layer_index": 17,
+        "input_items": 47,
+        "num_groups": 2,
+        "output_items": 46,
+        "stagnant_layers": 0,
+        "stopped_reason": null
+      },
+      {
+        "layer_index": 18,
+        "input_items": 46,
+        "num_groups": 2,
+        "output_items": 46,
+        "stagnant_layers": 1,
+        "stopped_reason": null
+      },
+      {
+        "layer_index": 19,
+        "input_items": 46,
+        "num_groups": 2,
+        "output_items": 46,
+        "stagnant_layers": 2,
+        "stopped_reason": null
+      },
+      {
+        "layer_index": 20,
+        "input_items": 46,
+        "num_groups": 2,
+        "output_items": 46,
+        "stagnant_layers": 3,
+        "stopped_reason": "stagnation_patience_reached"
+      }
+    ],
+    "common_mistake_merge_layers": [
+      {
+        "layer_index": 0,
+        "input_items": 34,
+        "num_groups": 2,
+        "output_items": 12,
+        "stagnant_layers": 0,
+        "stopped_reason": null
+      },
+      {
+        "layer_index": 1,
+        "input_items": 12,
+        "num_groups": 1,
+        "output_items": 8,
+        "stagnant_layers": 0,
+        "stopped_reason": "root_group_reached"
+      }
+    ]
+  }
+}
