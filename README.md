@@ -31,8 +31,8 @@ SGSD uses an experience-derived skill bank as teacher-side privileged informatio
 
 - **SGSD training**: teacher-only skill conditioning, rank-aligned skill-mistake teachers, outcome-validated polarity, and gated token-level self-distillation.
 - **Skill bank lifecycle**: cold-start memory generation, per-trajectory skill extraction, hierarchical merge, retrieval, and optional online maintenance.
-<!-- - **Baselines**: OPSD, OPSD+Skill, GRPO, and GRPO+Skill are kept as reproducible comparison entries. -->
 - **Math evaluation**: plain-prompt evaluation for trained checkpoints and a dedicated Base+Skill evaluation entry.
+<!-- - **Baselines**: OPSD, OPSD+Skill, GRPO, and GRPO+Skill are kept as reproducible comparison entries. -->
 <!-- - **Public data support**: direct adapter support for [BytedTsinghua-SIA/DAPO-Math-17k](https://huggingface.co/datasets/BytedTsinghua-SIA/DAPO-Math-17k), with compatibility for the earlier string-field schema. -->
 
 ## Main Results
