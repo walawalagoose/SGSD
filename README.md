@@ -37,31 +37,58 @@ SGSD uses an experience-derived skill bank as teacher-side privileged informatio
 
 ## Main Results
 
-We report avg@12 accuracy for the best recorded checkpoint on AIME24, AIME25, and HMMT25. SGSD uses skill PI only on the teacher side during training and evaluates with plain prompts.
+We report avg@12 accuracy for Qwen3-1.7B. SGSD uses skill PI only on the teacher side during training and evaluates with plain prompts.
 
-| Model | Method | AIME24 | AIME25 | HMMT25 | Avg. |
-| --- | --- | ---: | ---: | ---: | ---: |
-| Qwen3-1.7B | Base | 51.1 | 36.9 | 24.2 | 37.4 |
-| Qwen3-1.7B | Base+Skill | 49.2 | 38.3 | 20.3 | 35.9 |
-| Qwen3-1.7B | GRPO | 50.0 | 36.7 | 25.8 | 37.5 |
-| Qwen3-1.7B | GRPO+Skill | 52.2 | 38.9 | 25.8 | 39.0 |
-| Qwen3-1.7B | OPSD | 55.8 | 43.3 | 26.9 | 42.0 |
-| Qwen3-1.7B | OPSD+Skill | 54.4 | 40.3 | 27.2 | 40.6 |
-| Qwen3-1.7B | **SGSD** | **57.8** | **43.6** | **29.7** | **43.7** |
-| Qwen3-4B | Base | 73.9 | 69.7 | 43.3 | 62.3 |
-| Qwen3-4B | Base+Skill | 71.9 | 65.6 | 42.2 | 59.9 |
-| Qwen3-4B | GRPO | 76.1 | 66.7 | 45.3 | 62.7 |
-| Qwen3-4B | GRPO+Skill | 73.9 | 65.3 | 44.7 | 61.3 |
-| Qwen3-4B | OPSD | 75.3 | 69.2 | 46.1 | 63.5 |
-| Qwen3-4B | OPSD+Skill | 75.3 | 66.7 | 44.7 | 62.2 |
-| Qwen3-4B | **SGSD** | **75.3** | **70.8** | **46.7** | **64.3** |
-| Qwen3-8B | Base | 75.3 | 66.1 | 45.0 | 62.1 |
-| Qwen3-8B | Base+Skill | 78.3 | 68.1 | 40.8 | 62.4 |
-| Qwen3-8B | GRPO | 79.2 | 69.7 | 46.1 | 65.0 |
-| Qwen3-8B | GRPO+Skill | 78.3 | 66.9 | 45.0 | 63.4 |
-| Qwen3-8B | OPSD | 79.2 | 73.1 | 48.1 | 66.8 |
-| Qwen3-8B | OPSD+Skill | 77.8 | 65.3 | 43.9 | 62.3 |
-| Qwen3-8B | **SGSD** | **78.9** | **70.6** | **46.9** | **65.5** |
+<div align="center">
+<table>
+<tr>
+<th align="center">AIME24</th>
+<th align="center">AIME25</th>
+<th align="center">HMMT25</th>
+</tr>
+<tr>
+<td>
+
+| Method | Avg@12 |
+|---|---|
+| Base | 51.1% |
+| Base+Skill | 49.2% |
+| GRPO | 50.0% |
+| GRPO+Skill | 52.2% |
+| OPSD | 55.8% |
+| OPSD+Skill | 54.4% |
+| **SGSD** | **57.8%** |
+
+</td>
+<td>
+
+| Method | Avg@12 |
+|---|---|
+| Base | 36.9% |
+| Base+Skill | 38.3% |
+| GRPO | 36.7% |
+| GRPO+Skill | 38.9% |
+| OPSD | 43.3% |
+| OPSD+Skill | 40.3% |
+| **SGSD** | **43.6%** |
+
+</td>
+<td>
+
+| Method | Avg@12 |
+|---|---|
+| Base | 24.2% |
+| Base+Skill | 20.3% |
+| GRPO | 25.8% |
+| GRPO+Skill | 25.8% |
+| OPSD | 26.9% |
+| OPSD+Skill | 27.2% |
+| **SGSD** | **29.7%** |
+
+</td>
+</tr>
+</table>
+</div>
 
 ## Installation
 
